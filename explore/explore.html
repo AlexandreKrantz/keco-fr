@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Explore | Keco</title>
+        <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+        body {
+          background-color: #F8F9FA;
+        }
+         .viewMore[aria-expanded="false"]:before{
+          content:"Show more";
+        }
+
+         .viewMore[aria-expanded="true"]:before{
+          content:"Show less";
+        }
+      .card-img-top {
+        max-height: 225px;
+        object-fit: contain;
+
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="offcanvas.css">
+
+
+    <!-- Custom fonts for landing page template -->
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="../css/landing-page.min.css" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <header>
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-success" >
+        <a class="navbar-brand" href="../index.html"><!--<img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c516.png" width="30" height="30" class="d-inline-block align-top" alt="">-->    Keco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../search/search.html">Search</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../explore/explore.html">Explore</a>
+            </li>
+            <span data-toggle="popover" data-trigger="hover" data-content="Coming soon: learn more about sustainable shopping.">
+            <li class="nav-item ">
+              <a class="nav-link disabled">Learn</a>
+            </li>
+          </span>
+          </ul>
+          
+
+          <!--
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          -->   
+        </div>
+      </nav>
+    </header>
+    <div class="nav-scroller bg-white box-shadow">
+      <nav class="nav nav-underline">
+        <!-- <a class="nav-link active text-primary disabled"><b>Jump to:</b></a> -->
+        <a class="nav-link active" href="#laundry">
+          Laundry
+          <!--<span class="badge badge-pill bg-light align-text-bottom">27</span>-->
+        </a>
+        <a class="nav-link" href="#shower">Shower</a>
+        <a class="nav-link" href="#travel">Travel</a>
+        <a class="nav-link" href="#fashion">Fashion</a>
+
+
+      </nav>
+    </div>
+    <main role="main">
+
+
+    <!-- start featured -->
+    <div class="album py-5 bg-light">
+    <div class="container">
+    <h1 id="laundry">Laundry</h1>     
+    <br>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/laundry/BLEACH-1.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">A natural alternative to chlorine bleach? Now that’s a bright idea.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a target="_blank" href="https://www.ecover.com/products/laundry-bleach/"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecover</small>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/laundry/EZSTAINREM_large.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">A big plus is its ingredients are biodegradable and free-from toxic chemicals and bleaching agents.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.ecozonedirect.com/products/laundry-stain-remover-135ml/ezstainrem.aspx?productid=ezstainrem" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecozone</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/laundry/ecoballs_large.png" class="card-img-top" >
+
+            <div class="card-body">
+              <p class="card-text">The ecoballs are an innovative alternative to your usual laundry detergents, be that liquids or tablets. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.ecozonedirect.com/products/laundry-sensitive-ecoballs-1000-washes/ecoballs.aspx?productid=ecoballs" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecozone</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+
+
+
+      
+      <div class="row collapse" id="collapseExample">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/laundry/ZONETOWELSOFT_large.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">With a 3 in 1 action formula that will last up to 17 washes, the pure plant-based ingredients work to make fibres smoother and less rough.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.ecozonedirect.com/products/wild-cotton-towel-softener-17-washes-1l/zonetowelsoft.aspx?productid=zonetowelsoft" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecozone</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/laundry/WAPO-Bio-1.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">We choose renewable plant-based and mineral ingredients which are effective, reduce pollution and lessen the burden on our planet’s resources.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.ecover.com/products/bio-washing-powder/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecover</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/laundry/BIO-LAUNDRY-NEW-479x1024.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Packed full of Smart Green Science with naturally derived actives, our concentrated laundry liquid leaves your washing spotless and smelling sublime.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.ecover.com/products/concentrated-bio-laundry-liquid/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecover</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+      
+    <button type="button" class="btn btn-primary btn-lg btn-block viewMore" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></button>
+
+
+    <br >
+    <hr class="featurette-divider" >
+    <br>
+
+        <!-- new row -->
+    <h1 id="shower">Shower</h1>     
+    <!-- <a href="*"><h5>Next category</h5></a> -->
+    <br>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/shower/shampoo_and_conditioner500.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Vegan Sulfate Free Shampoo & Conditioner by Teadora. Winner of the "Best Natural Conditioner" by Prevention Magazine.  </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.teadorabeauty.com/collections/hair-care/products/brazilian-miracle-shampoo-conditioner-set" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Teadora</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/shower/soap_moisturizing_body_bar_lavender_calendula_bar_box_moon_valley_organic_usda_large.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Our Lavender Calendula Cleansing Body Bar combines Calendula with the soothing properties of Lavender and Patchouli oils. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.moonvalleyorganics.com/collections/soaps/products/calendula-soap" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Moon Valley Organics</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/shower/10-10-75-014.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Practical hair & body wash, ideal for everyday use in the the initial months of an infant's life.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.apivita.com/babies-and-kids/eco-bio-baby-kids/baby-hair-and-body-wash" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Apivita</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+
+
+
+      
+      <div class="row collapse" id="collapseExample2">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/shower/webshop-eu-lotion-lavendercoconut-960x1440.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Lavender moisturizing milk.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.drbronner.de/en/onlineshop/koerperlotion/organic-lotion-lavender-coconut.html#.XSgspK2B2i4" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Dr. Bronner's</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/shower/fr-bar_soap-5oz-peppermint_800x1200_0002_fr-bar_soap-5oz-lavender.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Lavender soap bar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.drbronner.de/fr/onlineshop/seife/savon-solide-lavande.html?___SID=U#.XSgr362B2i4" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Dr. Bronner's</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/shower/Brazillian_Glow_Cleanser_500x500.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Superfood for your skin. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a target="_blank" href="https://www.teadorabeauty.com/collections/body-care/products/ultra-silky-cleanser-1"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Teadora</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+      
+    <button type="button" class="btn btn-primary btn-lg btn-block viewMore" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"></button>
+
+    <br>
+    <hr class="featurette-divider">
+    <br>
+    <!-- new row -->
+    <h1 id="travel">Travel</h1>     
+    <!-- <a href="*"><h5>Next category</h5></a> -->
+    <br>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/travel/Preserve-Toothbrush-Bouquet-Assorted-No-Package-Sept2013.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Toothbrush made from recycled yogurt pots. Includes reusable container for travel.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.preserveproducts.eu/soins-dentaires/brosse-a-dents-adulte-avec-etui-voyage..html" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Preserve</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/travel/travel-zahnpasta.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Eco-friendly travel toothpaste.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.drbronner.de/en/zahnpasta-pfefferminze-travel-size-28g.html?___from_store=fr#.XSeVoK2B2i4" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Dr. Bronner's</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/travel/Cosmetics_Case_Black_1a_web_600x.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">The Fire & Hide Cosmetics Case combines hand-woven rescued leather and decommissioned fire hose and is lined with reclaimed parachute silk.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.elvisandkresse.com/collections/travel/products/fire-hide-cosmetics-case" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Elvis & Kresse</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+
+
+
+      
+      <div class="row collapse" id="collapseExample1">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/travel/Travel_wallet_1_web_600x.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">The Elvis & Kresse Travel Wallet is made from genuine decommissioned fire-hose.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.elvisandkresse.com/collections/travel/products/travel-wallet" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Elvis & Kresse</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/travel/600x600px_sncr_products_kids-01.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Hypoallergenic high-protection sunscreen cream specially designed for the sensitive skin of babies and toddlers.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.apivita.com/babies-and-kids/babies-protection-spf30-with-100-natural-filters" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Starboard</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/travel/incognito-100mlSpraySquare_600x.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">This award-winning insect repellent spray contains no DEET or other harmful pesticides.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://lessmosquito.com/collections/the-incognito-store/products/incognito-luxury-soap" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Incognito</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+      
+    <button type="button" class="btn btn-primary btn-lg btn-block viewMore" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample"></button>
+
+    <br>
+    <hr class="featurette-divider">
+    <br>
+
+    <!-- new row -->
+    <h1 id="fashion">Fashion</h1>     
+    <!-- <a href="*"><h5>Next category</h5></a> -->
+    <br>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/fashion/wooden-sunglasses.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">With their slender frame in beautiful dual tones of redwood and ebony, curved features and keyhole bridge, our handcrafted Bodhi wood sunglasses boast nothing but style.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="http://www.growneyewear.co.uk/product/bodhi-redwood" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Grown</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/fashion/bamba-con-cordones-noli.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Sneakers with ultralight sole and laces, made with recycled plastic bottles taken from the coasts of Thailand</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://ecoalf.com/en/sneakers/bamba-con-cordones-noli-5253-2500#/143-talla-40" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Ecoalf</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/fashion/Man-Ethical-Jeans-Louie-Shorts-Pure-blue-front.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Preppy lightweight shorts. Straight leg. Mid waist. Button Fly. Chino inspired details such as front pockets and welt backpockets.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://mudjeans.eu/products/louie-short-pure-blue/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Mud Jeans</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+
+
+
+      
+      <div class="row collapse" id="collapseExample3">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/fashion/Woman-Sustainable-Jeans-Ivy-Shorts-Pure-Blue-Front.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Tennis inspired, lightweight shorts. High waist. Comfy fit. Zip fly. Chino inspired details such as front pockets and welt backpockets</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://mudjeans.eu/products/ivy-short-pure-blue/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Mud Jeans</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/fashion/TWA2437-LAV-1_600x.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Made from our signature triblend jersey, this ultra comfy v-neck tee can keep up with you wherever your day takes you.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.threads4thought.com/collections/womens-new-arrivals/products/molly-triblend-tee-lavender" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Threads 4 Thought</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="./img/fashion/TM22000-CSPA-1_600x.png" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Made from our most popular triblend jersey fabric, the Laramie Triblend Pocket Tee is the ultimate soft and comfy tee.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.threads4thought.com/products/laramie-triblend-pocket-tee-3" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Learn more</button></a>
+                </div>
+                <small class="text-muted">Threads 4 Thought</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row end -->
+      
+    <button type="button" class="btn btn-primary btn-lg btn-block viewMore" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"></button>
+
+    </div>
+    </div>    
+    </main>
+      <!-- Footer -->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">The Team</a></li>
+              <li><a class="text-muted" href="#">Our Mission</a></li>
+              <li><a class="text-muted" href="../extras/privacy.html">Your Privacy</a></li>
+              <li><a class="text-muted" href="./extras/disclaimer.html">Disclaimer</a></li>
+            </ul>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Share</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Share on Facebook</a></li>
+              <li><a class="text-muted" href="#">Share on Instagram</a></li>
+              <li><a class="text-muted" href="#">Share on Twitter</a></li>
+              <li><a class="text-muted" href="#">Email a friend</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Contact</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Give Feedback</a></li>
+              <li><a class="text-muted" href="#">Contribute</a></li>
+              <li><a class="text-muted" href="#">Become Pen Pals</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <!-- popover boot-->
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover(); 
+    });
+    </script>
+  </body>
+</html>

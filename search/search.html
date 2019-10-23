@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+  <title>Search | Keco</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!-- IE < 10 support -->
+  <!--[if lte IE 9]>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="" />
+	<!--Navebar CSS-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+
+  <!-- Custom fonts for landing page template -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="../css/landing-page.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+
+</head>
+<body>
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-success" >
+        <a class="navbar-brand" href="../index.html"><!--<img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c516.png" width="30" height="30" class="d-inline-block align-top" alt="">-->    Keco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../search/search.html">Search</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="../explore/explore.html">Explore</a>
+            </li>
+            <span data-toggle="popover" data-trigger="hover" data-content="Coming soon: learn about sustainable shopping.">
+            <li class="nav-item ">
+              <a class="nav-link disabled">Learn</a>
+            </li>
+          </span>
+          </ul>
+          
+
+          <!--
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          -->   
+        </div>
+      </nav>
+      <br>
+      <!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Using your mobile?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        For a better experience on this page please make sure your device is in landscape orientation. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-primary">Got it</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- INTERFACE -->
+  <header>
+  	<!-- <a href="https://www.algolia.com/"><img src="./assets/img/search-by-algolia.png"/></a>   -->
+    <div id="search-input"></div>
+  </header>
+  <!-- <button type="button" class="btn btn-sm btn-block btn-outline-primary viewMore" data-toggle="collapse" data-target="#left-column" aria-expanded="false" aria-controls="collapseCategories">Select categories</button> -->
+  
+  <main id="search-app">
+    <div id="left-column">
+      <div id="hierarchicalCategories" class="facet"></div>
+      <div id="location" class="facet"></div>
+      <div id="popularity-selector" class="facet"></div>
+
+    </div>
+
+    <div id="right-column">
+      <div id="sort-by-wrapper"><span id="sort-by"></span></div>
+      <div id="stats"></div>
+      <div id="active-filters"></div>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+    </div>
+  </main>
+  <!-- /INTERFACE -->
+
+  <!-- TEMPLATES -->
+  <script type="text/html" id="hit-template">
+    <div class="hit">
+      <!--
+      <div class="hit-image">
+        <img src="{{image}}" alt="{{name}}">
+      </div>
+      -->
+      <div class="hit-content">
+        
+        <a target="_blank" href="{{{url}}}">
+          <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
+        </a>
+        <p class="hit-category-breadcrumb">{{{categories}}}</p>
+        <button type="button" class="btn btn-sm btn-block btn-outline-primary viewMore" id="productShow" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></button>
+        
+        <div class="collapse" id="collapseExample"><p class="hit-description" id="products" >{{{_highlightResult.description.value}}} </p></div>
+        
+      </div>
+    </div>
+
+  </script>
+
+  <script type="text/html" id="no-results-template">
+    <div id="no-results-message">
+      <p>We didn't find any results for <em>"{{query}}"</em>. <br>You can still shop sustainably by buying it <a target="_blank" href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000">used</a>.</p>
+      <a href="../instant-search-master/index.html" class='clear-all'>Clear search</a>
+    </div>
+  </script>
+
+  
+      <!-- Footer -->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">The Team</a></li>
+              <li><a class="text-muted" href="#">Our Mission</a></li>
+              <li><a class="text-muted" href="../extras/privacy.html">Your Privacy</a></li>
+              <li><a class="text-muted" href="./extras/disclaimer.html">Disclaimer</a></li>
+            </ul>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Share</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Share on Facebook</a></li>
+              <li><a class="text-muted" href="#">Share on Instagram</a></li>
+              <li><a class="text-muted" href="#">Share on Twitter</a></li>
+              <li><a class="text-muted" href="#">Email a friend</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Contact</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Give Feedback</a></li>
+              <li><a class="text-muted" href="#">Contribute</a></li>
+              <li><a class="text-muted" href="#">Become Pen Pals</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+  <script src="search.js"></script>
+  <!-- /SCRIPTS -->
+
+  <!-- GA -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-98919331-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- /GA -->
+  <!--Navbar script-->
+	<script>
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+
+
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <!-- popover boot-->
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover(); 
+    });
+  </script>
+  <!-- check mobile browser -->
+  <script type="text/javascript">
+
+	function detectmob() { 
+	 if( navigator.userAgent.match(/Android/i)
+	 || navigator.userAgent.match(/webOS/i)
+	 || navigator.userAgent.match(/iPhone/i)
+	 || navigator.userAgent.match(/iPad/i)
+	 || navigator.userAgent.match(/iPod/i)
+	 || navigator.userAgent.match(/BlackBerry/i)
+	 || navigator.userAgent.match(/Windows Phone/i)
+	 ){
+	    return true;
+	  }
+	 else {
+	    return false;
+	  }
+	}
+	var mobile;
+	mobile = detectmob();
+	if (mobile == true) {
+		$('#exampleModalCenter').modal();
+	}
+
+
+  </script>
+</body>
+</html>
