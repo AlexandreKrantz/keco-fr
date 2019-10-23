@@ -1,0 +1,23 @@
+{
+  "name": "Keco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreKrantz/Keco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage":"https://alexandrekrantz.github.io/keco",
+  "bugs": {
+    "url": "https://github.com/AlexandreKrantz/Keco/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
