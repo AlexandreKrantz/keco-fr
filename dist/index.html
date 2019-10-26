@@ -1,186 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Access Keco</title>
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150814265-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/floating-labels/">
 
-    gtag('config', 'UA-150814265-1');
-  </script>
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
-  <title>Keco</title>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="floating-labels.css" rel="stylesheet">
+    <script type="text/javascript">
+	// PASSWORD PROTECTION SCRIPT
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	function TheLogin() {
 
-  <!-- Custom fonts for landing page template -->
-  <link href="assets/landing-page.css" rel="stylesheet">
-  <!--fonts of instantsearch demo-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+	var password = '10V3U2L!^4';
+
+	if (this.document.login.pass.value == password) {
+	  top.location.href="home.html";
+	}
+	else {
+	  window.alert("Invalid code, please try again.");
+	  }
+	}
+
+	</script>
+
+  </head>
+  <body>
+  <form name="login" class="form-signin">
+	  <div class="text-center mb-4">
+	    <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="logo" width="72" height="72">
+	    <h1 class="h3 mb-3 font-weight-normal">Alpha Testing</h1>
+	    <p>zieojf zoizfj zoa ifjeif ief ifjiif  éàf if eiifjf ii if ei zozf a^f pf afdui ied ei gvpgçuéu iskcl icjkc jc jnjyazd</p>
+	  </div>
+
+	  <div class="form-label-group">
+	    <input type="text" id="inputPassword" class="form-control" placeholder="Access Code" name="pass" onkeydown="if(event.keyCode==13) event.keyCode=9;" required autofocus>
+	    <label for="inputPassword">Access Code</label>
+	  </div>
+	  <input class="btn btn-lg btn-primary btn-block" onclick="javascript:TheLogin(this.form)" type="button" value="Enter Site">
+	  <p class="mt-5 mb-3 text-muted text-center">&copy; 2019 Alexandre Krantz</p>
+</form>
+<script type="text/javascript">
 
 
-
-</head>
-
-<body>
-
-<!--Navbar-->
-  <nav class="navbar navbar-expand-sm static-top navbar-dark bg-dark" >
-    <a class="navbar-brand" href="index.html">
-      <img src="" width="30" height="30" class="d-inline-block align-top" alt="">    
-      Keco
-    </a>    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExample04">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
-          <a class="nav-link" href="search.html">Search</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="explore.html">Explore</a>
-        </li>
-        <span data-toggle="popover" data-trigger="hover" data-content="Coming soon: learn about sustainable shopping.">
-        <li class="nav-item ">
-          <a class="nav-link disabled">Learn</a>
-        </li>
-      </span>
-      </ul>
-      <!--
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      -->   
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Sustainable shopping. Simplified.</h1>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <!--<div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>-->
-          </form>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <img src="./img/noun_search-bar.svg" alt="search bar by Prettycons from the Noun Project" height="100%" width="100%" class="icon-screen-desktop m-auto">
-            </div>
-            <h3>Search</h3>
-            <p class="lead mb-0">Find sustainable brands that sell the product you're looking for.</p><br>
-        	<p><a class="btn btn-secondary" href="search.html" role="button">Check it out &raquo;</a></p>
-
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-        		<img src="./img/noun_products.svg" height="100%" width="100%" alt="products by Prettycons from the Noun Project" class="icon-screen-desktop m-auto">
-            </div>
-            <h3>Explore</h3>
-            <p class="lead mb-0">Discover featured sustainable products by category.</p><br>
-            <p><a class="btn btn-secondary" href="explore.html" role="button">Check it out &raquo;</a></p>
-
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-        		<img src="./img/noun_information.svg" height="100%" width="100%" alt="Information by Bluetip Design from the Noun Project" class="icon-screen-desktop m-auto">
-            </div>
-            <h3>Learn</h3>
-            <p class="lead mb-0">Transition to a more sustainable lifestyle without sacrifices.</p><br>
-            <p><a class="btn btn-secondary disabled" href="#" role="button" >Preview coming soon</a></p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer bg-light border-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Disclaimer</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; 2019 Alexandre Krantz. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+</script>
 </body>
-
 </html>
