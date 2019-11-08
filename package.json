@@ -17,7 +17,8 @@
   "bugs": {
     "url": "https://github.com/AlexandreKrantz/Keco/issues"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gh-pages": "^2.1.1"
   }
 }

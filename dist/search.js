@@ -3,7 +3,7 @@
 app({
   appId: 'JANRA19K71',
   apiKey: 'a345491e56ba7434a97d791f379a5a0b',
-  indexName: 'Dev_Brands',
+  indexName: 'Dev_FraBrands',
   //appId: 'latency',
   //apiKey: '6be0576ff61c053d5f9a3225e2a90f76',
   //indexName: 'instant_search',
