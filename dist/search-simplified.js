@@ -48,15 +48,27 @@ function app(opts) {
       indices: [
         {
           name: opts.indexName,
-          label: 'Most relevant',
+          label: 'Overall B Impact',
         },
         {
-          name: `${opts.indexName}_price_asc`,
-          label: 'Lowest price',
+          name: `${opts.indexName}_Governance`,
+          label: 'Governance',
         },
         {
-          name: `${opts.indexName}_price_desc`,
-          label: 'Highest price',
+          name: `${opts.indexName}_Workers`,
+          label: 'Workers',
+        },
+        {
+          name: `${opts.indexName}_Community`,
+          label: 'Community',
+        },
+        {
+          name: `${opts.indexName}_Environment`,
+          label: 'Environment',
+        },
+        {
+          name: `${opts.indexName}_Customers`,
+          label: 'Customers',
         },
       ],
     })
@@ -83,31 +95,22 @@ function app(opts) {
 
   search.addWidget(
     instantsearch.widgets.refinementList({
-      container: '#brand',
+      container: '#location',
       attributeName: 'brand',
       operator: 'or',
       searchForFacetValues: {
-        placeholder: 'Search for brands',
+        placeholder: 'Search for a location',
         templates: {
-          noResults: '<div class="sffv_no-results">No matching brands.</div>',
+          noResults: '<div class="sffv_no-results">No matching location.</div>',
         },
       },
       templates: {
-        header: getHeader('Brand'),
+        header: getHeader('Location'),
       },
     })
   );
 
-  search.addWidget(
-    instantsearch.widgets.rangeSlider({
-      container: '#price',
-      attributeName: 'price',
-      templates: {
-        header: getHeader('Price'),
-      },
-    })
-  );
-
+  /*
   search.addWidget(
     instantsearch.widgets.refinementList({
       container: '#type',
@@ -118,6 +121,7 @@ function app(opts) {
       },
     })
   );
+  */
 
   search.start();
 }

@@ -22,9 +22,10 @@
   <main>
     <div id="left-column">
       <div id="category" class="facet"></div>
-      <div id="brand" class="facet"></div>
-      <div id="price" class="facet"></div>
+      <div id="location" class="facet"></div>
+      <!--
       <div id="type" class="facet"></div>
+      -->
     </div>
     
     <div id="right-column">
@@ -36,8 +37,7 @@
   </main>
 
   <footer>
-    Source Code on <a href="https://github.com/algolia/instant-search-demo">Github</a> -
-    Powered by <a href="https://www.algolia.com">Algolia</a> - Data from <a href="https://developer.bestbuy.com">Best Buy</a>
+  <p>Made with love by Alex Krantz</p>
   </footer>
   <!-- /INTERFACE -->
 
@@ -48,7 +48,7 @@
         <img src="{{image}}" alt="{{name}}">
       </div>
       <div class="hit-content">
-        <h3 class="hit-price">${{price}}</h3>
+        <h3 class="hit-price">{{price}}</h3>
         <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
         <p class="hit-description">{{{_highlightResult.description.value}}}</p>
       </div>
