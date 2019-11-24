@@ -96,7 +96,7 @@ function app(opts) {
   search.addWidget(
     instantsearch.widgets.refinementList({
       container: '#location',
-      attributeName: 'brand',
+      attributeName: 'location',
       operator: 'or',
       searchForFacetValues: {
         placeholder: 'Search for a location',

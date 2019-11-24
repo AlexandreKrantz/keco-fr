@@ -558,22 +558,13 @@ footer a:hover {
     width: 100%;
   }
   .hit-image {
-    display: inline-block;
-    width: 26%;
-    text-align: center;
-    
+    width: 26%;    
   }
-  .hit-image img {
-    max-width: 100%;
-    max-height: 180px;
-  }
+
   .hit-content {
-    font-size: 13px;
-    font-weight: 300;
     display: inline-block;
     width: 71%;
     margin-left: 3%;
-    vertical-align: top;
   }
 
 }
@@ -583,21 +574,12 @@ footer a:hover {
     display: none;
   }
   .hit-image {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    
+    width: 100%;    
   }
-  .hit-image img {
-    max-width: 100%;
-    max-height: 180px;
-  }
+
   .hit-content {
-    font-size: 13px;
-    font-weight: 300;
     display: block;
     width: 100%;
-    vertical-align: top;
   }
 
 
