@@ -48,8 +48,12 @@
         <img src="{{image}}" alt="{{name}}">
       </div>
       <div class="hit-content">
-        <h3 class="hit-price">{{price}}</h3>
+        <a target="_blank" href="{{{BCORP_url}}}">
+        <h3 class="hit-price">{{Overall}}</h3>
+        </a>
+        <a target="_blank" href="{{{url}}}">
         <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
+        </a>
         <p class="hit-description">{{{_highlightResult.description.value}}}</p>
       </div>
     </div>
