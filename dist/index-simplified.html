@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Instant Search Tutorial</title>
+  <title>Keco</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" name="viewport" content="width=device-width, initial-scale=1">
   <!-- IE < 10 support -->
   <!--[if lte IE 9]>
@@ -9,13 +9,13 @@
   <![endif]-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/hilnmyskv/image/upload/c_fit,w_32,h_32/algolia-mark.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png" />
 </head>
 <body>
 
   <!-- INTERFACE -->
   <header>
-    <a href="."><img src="./assets/img/instant_search_logo@2x.png"/></a>
+    <a href="https://www.algolia.com/" target="_blank"><img src="./assets/img/search-by-algolia-light-background.svg"/></a>
     <div id="search-input"></div>
   </header>
 
@@ -37,23 +37,23 @@
   </main>
 
   <footer>
-  <p>Made with love by Alex Krantz</p>
+  <p>Made with peace and love. Don't hesitate to email keco.fr@gmail.com with any feedback.</p>
   </footer>
   <!-- /INTERFACE -->
 
   <!-- TEMPLATES -->
   <script type="text/html" id="hit-template">
     <div class="hit">
+	  <a target="_blank" href="{{{url}}}">
       <div class="hit-image">
         <img src="{{image}}" alt="{{name}}">
       </div>
+	  </a>
       <div class="hit-content">
         <a target="_blank" href="{{{BCORP_url}}}">
         <h3 class="hit-price">{{Overall}}</h3>
         </a>
-        <a target="_blank" href="{{{url}}}">
         <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
-        </a>
         <p class="hit-description">{{{_highlightResult.description.value}}}</p>
       </div>
     </div>

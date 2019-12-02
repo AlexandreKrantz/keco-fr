@@ -32,7 +32,7 @@ function app(opts) {
   search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#search-input',
-      placeholder: 'Search for products',
+      placeholder: 'Search for an item',
     })
   );
 
