@@ -19,7 +19,7 @@ main {
   float: left;
   width: 230px;
 }
-#right-column {
+#right-column, #message {
   width: auto;
   margin-left: 260px;
 }
@@ -34,7 +34,7 @@ main {
 header {
   position: relative;
   height: 80px;
-  margin-top: 40px;
+  margin-top: 18px;
 }
 header img {
   position: absolute;

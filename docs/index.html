@@ -10,9 +10,53 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/style.css">
   <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png" />
+  <!--WELCOME STYLING-->
+  <style>
+    #info {
+      width: 98%;
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-top: 20px;
+      background-color: #eeeeee;
+    }
+    #logo {
+      float: left;
+      width: 230px;
+
+    }
+    #logo > img {
+      max-height: 90px;
+      max-width: 230px;
+      display: block;
+      margin: auto;
+
+    }
+    #message {
+      width: auto;
+      margin-left: 260px;
+    }
+
+    @media screen and (max-width: 770px) {
+    #logo {
+      width: 100%;
+    }
+    #message {
+      width: 100%;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+
+    }
+  </style>
 </head>
 <body>
-
+  <!-- WELCOME -->
+  <div id="info" >
+  <div id="logo"><img src="./assets/img/logo.png"></div>
+  <div id="message"><h2>Sustainable shopping, simplified.</h2><p>Keco is here to help you shop better. Simply search for a product and you'll be connected to the most sustainable brands that sell it. Every brand featured on this website is a <a href="https://bcorporation.net/about-b-corps">Certified Benefit Corporation</a>, meaning they meet the highest standards of social and environmental impact.</p></div>
+  </div>
+  <br>
   <!-- INTERFACE -->
   <header>
     <a href="https://www.algolia.com/" target="_blank"><img src="./assets/img/search-by-algolia-light-background.svg"/></a>
