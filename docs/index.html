@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+  
+
   <title>Keco</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" name="viewport" content="width=device-width, initial-scale=1">
   <!-- IE < 10 support -->
@@ -124,7 +126,33 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-98919331-2', 'auto');
     ga('send', 'pageview');
+  </script> -->
+
+    <!-- check mobile browser -->
+    <script type="text/javascript">
+  
+    function detectmob() { 
+      if( navigator.userAgent.match(/Android/i)
+      || navigator.userAgent.match(/webOS/i)
+      || navigator.userAgent.match(/iPhone/i)
+      || navigator.userAgent.match(/iPad/i)
+      || navigator.userAgent.match(/iPod/i)
+      || navigator.userAgent.match(/BlackBerry/i)
+      || navigator.userAgent.match(/Windows Phone/i)
+      ){
+        return true;
+      }
+      else {
+        return false;
+      }
+    }
+    var mobile;
+    mobile = detectmob();
+    if (mobile == true) {
+      window.alert("This website is not yet full optimized for mobile. While it is still usable in landscape orientation, for the best experience we recommend that you use a desktop browser. Sorry for the inconvenience!");
+    }
+  
+  
   </script>
-  -->
 </body>
 </html>
