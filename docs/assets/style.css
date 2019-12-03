@@ -66,14 +66,14 @@ header img {
   font-weight: 100;
   padding: 10px 10px 5px 35px;
   border: none;
-  border-bottom: 5px solid #eee;
+  border-bottom: 3px solid #eee;
 }
 #search-input input, #search-input input:focus {
   transition: border-color .3s ease-in;
   outline: 0;
 }
 #search-input input:focus {
-  border-color: #ed5565;
+  border-color: #1566d3;
 }
 #search-input input::-webkit-input-placeholder, #search-input input:-moz-placeholder, #search-input input:-moz-placeholder, #search-input input:-ms-input-placeholder {
   font-weight: 100;
@@ -141,7 +141,7 @@ header img {
 
 .hit-content em {
   font-style: normal;
-  color: #ed5565;
+  color: #1566d3;
   border-bottom: solid 1px rgba(244, 107, 91, 0.5);
 }
 
@@ -200,8 +200,8 @@ header img {
 }
 #pagination li.ais-pagination--item__active a {
   color: white;
-  border-color: #ed5565;
-  background: #ed5565;
+  border-color: #1566d3;
+  background: #1566d3;
 }
 #pagination li.ais-pagination--item__active a:hover {
   cursor: default;
@@ -342,13 +342,13 @@ header img {
 .ais-menu--item__active .ais-menu--link,
 .ais-hierarchical-menu--list .facet-item.active:hover,
 .ais-hierarchical-menu--list .facet-item.active {
-  color: #ed5565;
+  color: #1566d3;
 }
 .ais-refinement-list--item__active .ais-refinement-list--label:hover,
 .ais-menu--item__active .ais-menu--link:hover,
 .ais-hierarchical-menu--list .facet-item.active:hover {
   text-decoration: line-through;
-  color: #ed5565;
+  color: #1566d3;
 }
 .ais-refinement-list--count,
 .ais-hierarchical-menu--count,
@@ -423,11 +423,11 @@ a.clear-all:hover {
 
 /* SLIDER */
 .ais-range-slider .rheostat-progress {
-  background-color: #ed5565;
+  background-color: #1566d3;
 }
 
 .ais-range-slider--handle {
-  border-color: #ed5565;
+  border-color: #1566d3;
 }
 
 .ais-body.ais-range-slider--body {
@@ -537,11 +537,11 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #ed5565;
+  color: #1566d3;
 }
 footer a:hover {
   text-decoration: underline;
-  color: #ed5565;
+  color: #1566d3;
 }
 
 /* Responsive */
