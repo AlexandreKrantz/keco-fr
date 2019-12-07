@@ -142,7 +142,11 @@
       if( navigator.userAgent.match(/iPhone/i)
       || navigator.userAgent.match(/iPod/i)
       ){
-        return true;
+        return 1;
+      }
+      if( navigator.userAgent.match(/Android/i)
+      ){
+        return 2;
       }
       else {
         return false;
@@ -150,9 +154,13 @@
     }
     var mobile;
     mobile = detectmob();
-    if (mobile == true) {
+    if (mobile == 1) {
       window.location.replace("https://keco.fr/index-mobile.html");
     }
+    if (mobile == 2) {
+      window.alert("This website is not yet full optimized for mobile. You can still use it in landscape orientation, but a desktop browser is recommended. Sorry for the inconvenience!");
+    }
+
   
   
   </script>
