@@ -66,7 +66,6 @@ function app(opts) {
           name: `${opts.indexName}_Governance`,
           label: 'Governance',
         },
-        */
         {
           name: `${opts.indexName}_Workers`,
           label: 'Workers',
@@ -79,7 +78,6 @@ function app(opts) {
           name: `${opts.indexName}_Environment`,
           label: 'Environment',
         },
-        /*
         {
           name: `${opts.indexName}_Customers`,
           label: 'Customers',
