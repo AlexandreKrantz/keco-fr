@@ -130,22 +130,20 @@
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
   <script src="search-simplified.js"></script>
   <!-- /SCRIPTS -->
-  <script>
-      document.body.style.zoom="246%";
-  </script>
+
     <!-- check mobile browser -->
     <script type="text/javascript">
   
       function detectmob() { 
-        if( navigator.userAgent.match(/Android/i)
-        || navigator.userAgent.match(/webOS/i)
-        || navigator.userAgent.match(/iPhone/i)
-        || navigator.userAgent.match(/iPad/i)
+        if( navigator.userAgent.match(/iPhone/i)
         || navigator.userAgent.match(/iPod/i)
-        || navigator.userAgent.match(/BlackBerry/i)
-        || navigator.userAgent.match(/Windows Phone/i)
         ){
-          return true;
+          return 1;
+        }
+        if( navigator.userAgent.match(/Android/i)
+
+        ){
+          return 2;
         }
         else {
           return false;
@@ -153,8 +151,11 @@
       }
       var mobile;
       mobile = detectmob();
-      if (mobile == false) {
-        window.location.replace("https://keco.fr");
+      if (mobile == 1) {
+        document.body.style.zoom="246%";
+      }
+      if (mobile == 2) {
+        document.body.style.zoom="135%";
       }
     
     
