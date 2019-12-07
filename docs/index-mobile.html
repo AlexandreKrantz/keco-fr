@@ -19,7 +19,7 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/style-mobile.css">
   <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png" />
   <!--WELCOME STYLING-->
   <style>
@@ -53,9 +53,6 @@
       color: #111032;
 
     }
-
-
-    @media screen and (max-width: 770px) {
     #logo {
       width: 100%;
     }
@@ -63,7 +60,6 @@
       width: 100%;
       margin-left: 0px;
       text-align: center;
-    }
 
 
     }
@@ -134,32 +130,8 @@
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
   <script src="search-simplified.js"></script>
   <!-- /SCRIPTS -->
-
-    <!-- check mobile browser -->
-    <script type="text/javascript">
-  
-    function detectmob() { 
-      if( navigator.userAgent.match(/Android/i)
-      || navigator.userAgent.match(/webOS/i)
-      || navigator.userAgent.match(/iPhone/i)
-      || navigator.userAgent.match(/iPad/i)
-      || navigator.userAgent.match(/iPod/i)
-      || navigator.userAgent.match(/BlackBerry/i)
-      || navigator.userAgent.match(/Windows Phone/i)
-      ){
-        return true;
-      }
-      else {
-        return false;
-      }
-    }
-    var mobile;
-    mobile = detectmob();
-    if (mobile == true) {
-      window.location.replace("https://keco.fr/index-mobile.html");
-    }
-  
-  
+  <script>
+      document.body.style.zoom="135%";
   </script>
 </body>
 </html>
