@@ -165,7 +165,7 @@
   .hit-content .hit-description {
     color: #868686;
     margin: 1px 0 10px 0;
-    font-size: 14px;
+    font-size: 18px;
   }
   
   /* PAGINATION */
@@ -576,12 +576,5 @@
       margin-left: 3%;
     }
 
-/* extra shit */
-
-.hit-description {
-  color: #111032;
-  margin: 1px 0 10px 0;
-  font-size: 1rem;
-}
   
 
