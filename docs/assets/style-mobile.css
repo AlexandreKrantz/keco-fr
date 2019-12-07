@@ -124,14 +124,14 @@
   .hit-stars {
     font-size: 17px;
     margin: 4px 0;
-    color: #868686;
+    color: #111032;
   }
   
   .hit-content .hit-price {
     float: right;
     margin-left: 20px;
     color: #ffffff;
-    background: #383838;
+    background: #111032;
     padding: 4px;
     border-radius: 3px;
   }
