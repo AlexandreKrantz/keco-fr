@@ -130,6 +130,16 @@
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
   <script src="search-simplified.js"></script>
   <!-- /SCRIPTS -->
+  <script>
+    function handleOutboundLinkClicks(event) {
+      ga('send', 'event', {
+        eventCategory: 'Outbound Link',
+        eventAction: 'click',
+        eventLabel: event.target.href,
+        transport: 'beacon'
+      });
+    }
+  </script>
 
     <!-- check mobile browser -->
     <script type="text/javascript">
