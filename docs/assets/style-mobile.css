@@ -114,7 +114,7 @@
   }
   
   .hit-content {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
     display: inline-block;
     width: 71%;
@@ -122,7 +122,7 @@
     vertical-align: top;
   }
   .hit-stars {
-    font-size: 20px;
+    font-size: 22px;
     margin: 4px 0;
     color: #111032;
   }
@@ -147,7 +147,7 @@
   }
   
   .hit-content p {
-    font-size: 13px;
+    font-size: 16px;
   }
   
   .hit-description em {
@@ -165,7 +165,7 @@
   .hit-content .hit-description {
     color: #111032;
     margin: 1px 0 10px 0;
-    font-size: 20px;
+    font-size: 22px;
   }
   
   /* PAGINATION */
