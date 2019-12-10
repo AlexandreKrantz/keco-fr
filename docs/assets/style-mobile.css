@@ -258,6 +258,8 @@
   /* STATS */
   #stats {
     display: none;
+    font-size: 0.8em;
+
 
   
   }
@@ -265,6 +267,8 @@
   #stats .ais-stats--time {
     font-size: 0.8em;
     color: #999;
+    display: none;
+
   }
   
   /* FACETS */
