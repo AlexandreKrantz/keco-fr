@@ -89,7 +89,7 @@
     </div>
     
     <div id="right-column">
-      <div id="sort-by-wrapper" style="pointer-events: none;"><span id="sort-by"></span></div>
+      <div id="sort-by-wrapper" style="display: none;" style="pointer-events: none;"><span id="sort-by"></span></div>
       <div id="stats"></div>
       <div id="hits"></div>
       <div id="pagination"></div>
@@ -110,7 +110,7 @@
       </div>
 	  </a>
       <div class="hit-content">
-        <a target="_blank" href="{{{BCORP_url}}}">
+        <a target="_blank" style="display: none;" href="{{{BCORP_url}}}">
         <h3 class="hit-price">{{Overall}}</h3>
         </a>
         <p class="hit-description">{{{_highlightResult.description.value}}}</p>
