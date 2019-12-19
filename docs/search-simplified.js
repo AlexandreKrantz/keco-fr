@@ -14,7 +14,7 @@ app({
 app({
   appId: 'JANRA19K71',
   apiKey: 'a345491e56ba7434a97d791f379a5a0b',
-  indexName: 'BCORP',
+  indexName: 'dev_BCORP',
   searchParameters: {
     hitsPerPage: 10,
   },
