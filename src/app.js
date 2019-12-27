@@ -1,9 +1,9 @@
 /* global algoliasearch instantsearch */
 
-const searchClient = algoliasearch('B1G2GM9NG0', 'aadef574be1f9252bb48d4ea09b5cfe5');
+const searchClient = algoliasearch('JANRA19K71', 'a345491e56ba7434a97d791f379a5a0b');
 
 const search = instantsearch({
-  indexName: 'demo_ecommerce',
+  indexName: 'BCORP',
   searchClient,
 });
 
@@ -16,8 +16,8 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.refinementList({
-    container: '#brand-list',
-    attribute: 'brand',
+    container: '#category',
+    attribute: 'categories',
   }),
 
 instantsearch.widgets.hits({
@@ -32,7 +32,7 @@ instantsearch.widgets.hits({
           <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
           </div>
-          <div class="hit-price">\${{price}}</div>
+          <div class="hit-price">\{{Overall}}</div>
         </div>
       `,
     },
