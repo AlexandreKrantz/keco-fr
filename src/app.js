@@ -25,7 +25,7 @@ instantsearch.widgets.hits({
     templates: {
       item: `
         <div>
-          <img src="{{image}}" alt="{{name}}" class="rounded float-left" />
+          <img src="{{image}}" alt="{{name}}" align="left" class="rounded img-fluid" />
           <a href="{{BCORP_url}}"><div class="hit-rating badge badge-secondary">\{{Overall}}</div></a>
 
           <div class="hit-name">
