@@ -25,14 +25,16 @@ instantsearch.widgets.hits({
     templates: {
       item: `
         <div>
-          <img src="{{image}}" align="left" alt="{{name}}" />
+          <img src="{{image}}" alt="{{name}}" class="rounded float-left" />
+          <a href="{{BCORP_url}}"><div class="hit-rating badge badge-secondary">\{{Overall}}</div></a>
+
           <div class="hit-name">
-            {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+            <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
           </div>
+
           <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
           </div>
-          <div class="hit-price">\{{Overall}}</div>
         </div>
       `,
     },
