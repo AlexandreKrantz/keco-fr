@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="./src/index.css">
   <link rel="stylesheet" href="./src/app.css">
 
-  <title>ais-ecommerce-demo-app</title>
+  <title>Keco</title>
 </head>
 
 <body>
@@ -30,10 +30,10 @@
 	  <div class="left-panel col-md-4 d-none d-md-block">
 	    <div id="current-refinements"></div>
 
-	    <h2>Category</h2>
+	    <h5>Category</h5>
 		<div id="category" class="facet"></div>
 		<hr>
-		<h2>Location</h2>
+		<h5>Location</h5>
 		<div id="location" class="facet"></div>
 
 	  </div>
@@ -49,8 +49,11 @@
 	<!--templates-->
 	<script type="text/html" id="no-results-template">
 		<div id="no-results-message">
-		  <p>We didn't find any sustainable brands that sell "{{query}}".<br>A good option could be to <a target="_blank" href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000">buy it used</a>.</p>
-		  <a href="." class='clear-all'>Clear search</a>
+		  <h5>We didn't find any sustainable brands that sell "{{query}}".<br> Here are some good options...</h5>
+		  <a href="." class="clear-all btn btn-secondary btn-md" role="button">Clear search</a>
+		  <a target="_blank" href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000" class="clear-all btn btn-success btn-md" role="button">Buy it used</a>
+
+		  
 		</div>
 	</script>
 
