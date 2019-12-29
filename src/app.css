@@ -1,8 +1,8 @@
-body { font-family: sans-serif; }
+body { font-family: sans-serif; padding: 1em; }
 
 .ais-ClearRefinements { margin: 1em 0; }
 
-.ais-SearchBox { margin: 1em 0;}
+.ais-SearchBox { margin: 1em 0; }
 
 .ais-Pagination { margin-top: 1em; }
 
@@ -24,8 +24,5 @@ body { font-family: sans-serif; }
 /*
 .ais-Hits-item img { max-height: 10em;}
 */
-
-.ais-SearchBox { padding-left: 1em; padding-right: 1em;}
-
 
 
