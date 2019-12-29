@@ -26,24 +26,20 @@ instantsearch.widgets.hits({
       item: `
         <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-8">
+            <div class="col-md-4">
               <img src="{{image}}" alt="{{name}}" align="left" class="rounded img-fluid" />
             </div>
-            
-            <div class="col-xs-4">
-              <a href="{{BCORP_url}}"><div class="hit-rating badge badge-secondary">\{{Overall}}</div></a>
-            </div>
-          </div>
 
-          <div class="row">
+            <div class="col-md-8">
             <div class="hit-name">
               <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
             </div>
-
+              <a href="{{BCORP_url}}"><div class="hit-rating badge badge-secondary">\{{Overall}}</div></a>
             <div class="hit-description">
               {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
             </div>
-          </div>
+            </div>
+
         </div>
       `,
     },
