@@ -40,7 +40,7 @@ instantsearch.widgets.hits({
               </div>
 
               <div class="hit-description">
-                {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
+                <p>{{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}</p>
               </div>
             </div>
 
