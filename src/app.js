@@ -35,13 +35,13 @@ instantsearch.widgets.hits({
             </div>
 
             <div class="col-sm-8">
-            <div class="hit-name">
-              <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
-            </div>
-              <a href="{{BCORP_url}}"><div class="hit-rating badge badge-secondary">\{{Overall}}</div></a>
-            <div class="hit-description">
-              {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
-            </div>
+              <div class="hit-name">
+                <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}} <a href="{{BCORP_url}}"><span class="hit-rating badge badge-secondary">\{{Overall}}</span></a></h3>
+              </div>
+
+              <div class="hit-description">
+                {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
+              </div>
             </div>
 
         </div>
