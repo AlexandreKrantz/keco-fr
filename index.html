@@ -48,10 +48,14 @@
 
 	<!--templates-->
 	<script type="text/html" id="no-results-template">
-		<div id="no-results-message">
-		  <h5>We didn't find any sustainable brands that sell "{{query}}".<br> Here are some good options...</h5>
-		  <a href="." class="clear-all btn btn-secondary btn-md" role="button">Clear search</a>
-		  <a target="_blank" href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000" class="clear-all btn btn-success btn-md" role="button">Buy it used</a>
+		<div id="no-results-message" class="card">
+			<div class="card-body">
+				<h5 class="card-title">We didn't find any sustainable companies that sell "{{query}}".</h5>
+				<p class="card-text">Try removing a filter or changing the keyword. Buying it used may also be a good option.</p>
+				<a href="." class="clear-all btn btn-secondary btn-md" role="button">Clear search and try again</a>
+				<a href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000" class="clear-all btn btn-success btn-md" role="button">Buy it pre-loved :)</a>
+
+			</div>
 
 		  
 		</div>
