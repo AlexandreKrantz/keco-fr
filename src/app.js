@@ -5,11 +5,13 @@ const searchClient = algoliasearch('JANRA19K71', 'a345491e56ba7434a97d791f379a5a
 const search = instantsearch({
   indexName: 'BCORP',
   searchClient,
+  routing:true
 });
 
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
+    placeholder: 'Search for an item!',
   }),
     instantsearch.widgets.currentRefinements({
     container: '#current-refinements',
@@ -48,6 +50,7 @@ instantsearch.widgets.hits({
 
         </div>
       `,
+      empty: getNothing('no-results'),
     },
   }),
 
@@ -58,3 +61,12 @@ instantsearch.widgets.hits({
 
 
 search.start();
+
+function getTemplate(templateName) {
+  return document.querySelector(`#${templateName}-template`).innerHTML;
+}
+
+function getNothing(templateName) {
+  return document.querySelector(`#${templateName}-template`).innerHTML;
+  //hide elements using DOM
+}

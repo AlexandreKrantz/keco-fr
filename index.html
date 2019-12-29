@@ -44,7 +44,13 @@
 	</div>
 	<div id="pagination"></div>
 
-
+	<!--templates-->
+	<script type="text/html" id="no-results-template">
+		<div id="no-results-message">
+		  <p>We didn't find any sustainable brands that sell "{{query}}".<br>A good option could be to <a target="_blank" href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000">buy it used</a>.</p>
+		  <a href="." class='clear-all'>Clear search</a>
+		</div>
+	</script>
 
 	<script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.1.1"></script>
