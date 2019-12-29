@@ -6,9 +6,9 @@ body { font-family: sans-serif; padding: 1em; }
 
 .ais-Pagination { margin-top: 1em; }
 
-#searchbox { max-width: 960px; margin: 0 auto;}
+#searchbox { max-width: 1080px; margin: 0 auto;}
 
-.ais-InstantSearch { max-width: 960px; overflow: hidden; margin: 0 auto; }
+.ais-InstantSearch { max-width: 1080px; overflow: hidden; margin: 0 auto; }
 
 .ais-Hits-item { margin-bottom: 1em; width: calc(100% - 1rem); }
 
@@ -20,4 +20,5 @@ body { font-family: sans-serif; padding: 1em; }
 
 /* ADDED BY ME */
 #hit-image {text-align: center;}
+
 
