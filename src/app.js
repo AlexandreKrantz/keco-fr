@@ -13,9 +13,6 @@ search.addWidgets([
     container: '#searchbox',
     placeholder: 'Search for an item!',
   }),
-    instantsearch.widgets.currentRefinements({
-    container: '#current-refinements',
-  }),
 
   instantsearch.widgets.refinementList({
     container: '#category',
