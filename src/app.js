@@ -3,7 +3,7 @@
 const searchClient = algoliasearch('JANRA19K71', 'a345491e56ba7434a97d791f379a5a0b');
 
 const search = instantsearch({
-  indexName: 'BCORP',
+  indexName: 'dev_BCORP',
   searchClient,
   routing:true
 });
@@ -38,7 +38,7 @@ instantsearch.widgets.hits({
 
             <div class="col-sm-8">
               <div class="hit-name">
-                <h5>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}} <a href="{{BCORP_url}}"><span class="hit-rating badge badge-secondary float-right">\{{Overall}}</span></a></h5>
+                <h5><a href="{{url}}" target="_blank">{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</a> <a href="{{BCORP_url}}"><span class="hit-rating badge badge-secondary float-right">\{{Overall}}</span></a></h5>
               </div>
 
               <div class="hit-description">
