@@ -22,3 +22,10 @@ body { font-family: sans-serif; padding: 1em; }
 #hit-image {text-align: center; }
 .ais-Hits-item img { margin-bottom: 1em;}
 
+#searchbox input {
+    font-size: 21px;
+  }
+
+.ais-PoweredBy svg {
+    height: 28px;
+}
