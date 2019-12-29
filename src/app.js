@@ -26,11 +26,11 @@ instantsearch.widgets.hits({
       item: `
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-4">
               <img src="{{image}}" alt="{{name}}" align="left" class="rounded img-fluid" />
             </div>
 
-            <div class="col-md-8">
+            <div class="col-sm-8">
             <div class="hit-name">
               <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
             </div>
