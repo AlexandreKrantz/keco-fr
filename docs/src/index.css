@@ -11,4 +11,6 @@ body {
 footer {
   max-width: 1080px;
   margin: 0 auto;
+  padding-bottom: 2em;
+  padding-top: 4em;
 }
