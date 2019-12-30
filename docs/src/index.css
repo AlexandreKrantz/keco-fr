@@ -7,3 +7,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+
+footer {
+  padding-top: 5em;
+  padding-bottom: 2em;
+  max-width: 1080px;
+  margin: 0 auto;
+}
