@@ -55,6 +55,15 @@ instantsearch.widgets.hits({
   }),
 ]);
 
+search.addWidgets([
+  instantsearch.widgets.analytics({
+    pushFunction(formattedParameters, state, results) {
+      window.ga('set', 'page', window.location.pathname + window.location.search);
+      window.ga('send', 'pageView');
+    },
+  })
+]);
+
 
 search.start();
 
