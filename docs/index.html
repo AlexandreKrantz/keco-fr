@@ -1,178 +1,101 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153844674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
 
-    gtag('config', 'UA-153844674-1');
-  </script>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="shortcut icon" href="./src/img/logo.png">
 
+  <!--Bootstrap CDN-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css">
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="./src/app.css">
 
   <title>Keco</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" name="viewport" content="width=device-width, initial-scale=1">
-  <!-- IE < 10 support -->
-  <!--[if lte IE 9]>
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png" />
-  <!--WELCOME STYLING-->
-  <style>
-    #info {
-      width: 98%;
-      max-width: 1000px;
-      margin: 0 auto;
-      margin-top: 20px;
-      border-bottom: 6px solid #47cb5e;
-      border-radius: 6px;
-    }
-    #logo {
-      float: left;
-      width: 230px;
-
-    }
-    #logo > img {
-      max-height: 100px;
-      max-width: 230px;
-      display: block;
-      margin: auto;
-    }
-    #message {
-      width: auto;
-      margin-left: 260px;
-    }
-    #message > h2 {
-      color: #218bd8;
-    }
-    #message > p {
-      color: #111032;
-
-    }
-
-
-    @media screen and (max-width: 770px) {
-    #logo {
-      width: 100%;
-    }
-    #message {
-      width: 100%;
-      margin-left: 0px;
-      text-align: center;
-    }
-
-
-    }
-  </style>
 </head>
+
 <body>
-  <!-- WELCOME -->
-  <div id="info" >
-  <div id="logo"><img src="./assets/img/logo.png"></div>
-  <div id="message"><h2>Sustainable shopping, simplified.</h2><p><strong>Keco is here to help you shop better.</strong> Simply search for a product and you'll be connected to the most sustainable brands that sell it. Every brand featured on this website is a <a href="https://bcorporation.net/about-b-corps" target="_blank">Certified Benefit Corporation</a>, meaning they meet the highest standards of social and environmental impact.</p></div>
-  </div>
-  <br>
-  <!-- INTERFACE -->
-  <header>
-    <a href="https://www.algolia.com/" target="_blank"><img src="./assets/img/search-by-algolia-light-background.svg"/></a>
-    <div id="search-input"></div>
-  </header>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+			<img src="./src/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+			Keco    
+        </a> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarsExample04">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="https://bcorporation.eu/about-b-corps">About B Corps</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="https://bthechange.com/">B the Change</a>
+			</li>
+		  </ul>
+		</div>
+	</nav>
 
-  <main>
-    <div id="left-column">
-      <div id="category" class="facet"></div>
-      <div id="location" class="facet"></div>
-      <!--
-      <div id="type" class="facet"></div>
-      -->
-    </div>
-    
-    <div id="right-column">
-      <div id="sort-by-wrapper" style="pointer-events: none;"><span id="sort-by"></span></div>
-      <div id="stats"></div>
-      <div id="hits"></div>
-      <div id="pagination"></div>
-    </div>
-  </main>
 
-  <footer>
-    <p>Made with love. If you have a moment, please consider filling in our <a href="https://docs.google.com/forms/d/e/1FAIpQLSd76ba-klCdU6jFzhZW1IcGsVSgtj-rgvcOaVwB1TDZisYDrQ/viewform">feedback form</a>.</p>
-  </footer>
-  <!-- /INTERFACE -->
+	<main>
 
-  <!-- TEMPLATES -->
-  <script type="text/html" id="hit-template">
-    <div class="hit">
-	  <a target="_blank" href="{{{url}}}">
-      <div class="hit-image">
-        <img src="{{image}}" alt="{{name}}">
-      </div>
-	  </a>
-      <div class="hit-content">
-        <a target="_blank" href="{{{BCORP_url}}}">
-        <h3 class="hit-price">{{Overall}}</h3>
-        </a>
-        <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
-        <p class="hit-description">{{{_highlightResult.description.value}}}</p>
-      </div>
-    </div>
-  </script>
+	<div class="ais-InstantSearch row">
+	
+		<div class="left-panel col-md-4 d-none d-md-block">
+		<hr>
+	    <h5>Category</h5>
+		<div id="category" class="facet"></div>
+		<hr>
+		<h5>Location</h5>
+		<div id="location" class="facet"></div>
 
-  <script type="text/html" id="no-results-template">
-    <div id="no-results-message">
-      <p>We didn't find any sustainable brands that sell "{{query}}".<br>A good option could be to <a target="_blank" href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000">buy it used</a>.</p>
-      <a href="." class='clear-all'>Clear search</a>
-    </div>
-  </script>
-  <!-- /TEMPLATES -->
+	  </div>
 
-  <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
-  <script src="search-simplified.js"></script>
-  <!-- /SCRIPTS -->
-  <script>
-    function handleOutboundLinkClicks(event) {
-      ga('send', 'event', {
-        eventCategory: 'Outbound Link',
-        eventAction: 'click',
-        eventLabel: event.target.href,
-        transport: 'beacon'
-      });
-    }
-  </script>
+	  <div class="right-panel col-md-8">
+		<div id="searchbox"></div>
 
-    <!-- check mobile browser -->
-    <script type="text/javascript">
-  
-    function detectmob() { 
-      if( navigator.userAgent.match(/iPhone/i)
-      || navigator.userAgent.match(/iPod/i)
-      ){
-        return 1;
-      }
-      if( navigator.userAgent.match(/Android/i)
-      ){
-        return 2;
-      }
-      else {
-        return false;
-      }
-    }
-    var mobile;
-    mobile = detectmob();
-    if (mobile == 1) {
-      window.location.replace("https://keco.fr/index-mobile.html");
-    }
-    if (mobile == 2) {
-      window.alert("This website is not yet full optimized for mobile. You can still use it in landscape orientation, but a desktop browser is recommended. Sorry for the inconvenience!");
-    }
+	    <div id="hits"></div>
+	  </div>
+	</div>
+	<div id="pagination"></div>
+	</main>
 
-  
-  
-  </script>
+	<!--templates-->
+	<script type="text/html" id="no-results-template">
+		<div id="no-results-message" class="card"> 
+			<div class="card-body">
+				<h5 class="card-title">No results were found for "{{query}}".</h5>
+				<p class="card-text">Try removing a filter or changing the query. Buying it used may also be a good option.</p>
+				<a href="." class="clear-all btn btn-secondary btn-md" role="button">Clear search</a>
+				<a href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000" class="clear-all btn btn-success btn-md" role="button">Buy it used</a>
+
+			</div>
+
+		  
+		</div>
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.1.1"></script>
+	<script src="./src/app.js"></script>
+
+
+	<!--Bootstrap CDN-->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
 </body>
+
 </html>
