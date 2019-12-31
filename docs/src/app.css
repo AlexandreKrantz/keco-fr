@@ -34,15 +34,15 @@ body { font-family: sans-serif; }
 }
 
 .ais-Pagination-item--selected .ais-Pagination-link {
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 .ais-Pagination-link {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: #343a40;
+  border-color: #343a40;
 }
 
 .ais-Pagination-link:hover {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: #343a40;
+  border-color: #343a40;
 }
