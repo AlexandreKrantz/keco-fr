@@ -32,3 +32,17 @@ body { font-family: sans-serif; }
 .ais-PoweredBy svg {
     height: 28px;
 }
+
+.ais-Pagination-item--selected .ais-Pagination-link {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.ais-Pagination-link {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.ais-Pagination-link:hover {
+  color: #6c757d;
+  border-color: #6c757d;
+}
