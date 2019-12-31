@@ -29,8 +29,10 @@ instantsearch.widgets.hits({
       item: `
         <div class="container-fluid hit-template">
           <div class="row">
-            <div class="col-sm-4" id="hit-image"> 
-              <img src="{{image}}" alt="{{name}}" class="rounded img-fluid" />
+            <div class="col-sm-4" id="hit-image">
+              <a href="{{url}}" target="_blank"> 
+                <img src="{{image}}" alt="{{name}}" class="rounded img-fluid" />
+              </a>
             </div>
 
             <div class="col-sm-8">
