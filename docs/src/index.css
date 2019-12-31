@@ -14,3 +14,9 @@ footer {
   padding-bottom: 3em;
   padding-top: 3em;
 }
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+
+}
