@@ -20,7 +20,7 @@ search.addWidgets([
     container: '#stats',
     templates: {
       text: `
-        {{#hasNoResults}}No brands found{{/hasNoResults}}
+        {{#hasNoResults}}No results{{/hasNoResults}}
         {{#hasOneResult}}1 brand found{{/hasOneResult}}
         {{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} brands by relevance{{/hasManyResults}}
       `,
