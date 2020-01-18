@@ -12,7 +12,7 @@ const search = instantsearch({
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    placeholder: 'Search for an item!',
+    placeholder: 'Search for an item',
   }),
   	
 
