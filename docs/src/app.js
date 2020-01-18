@@ -20,7 +20,7 @@ search.addWidgets([
     container: '#stats',
     templates: {
       text: `
-        {{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} brands ranked by relevance{{/hasManyResults}}
+        {{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} brands by relevance{{/hasManyResults}}
       `,
     },
   }),
