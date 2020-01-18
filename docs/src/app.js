@@ -6,6 +6,7 @@ const search = instantsearch({
   indexName: 'bcorp',
   searchClient,
   routing:true
+
 });
 
 search.addWidgets([
@@ -13,7 +14,18 @@ search.addWidgets([
     container: '#searchbox',
     placeholder: 'Search for an item!',
   }),
+  	
 
+  instantsearch.widgets.stats({
+    container: '#stats',
+    templates: {
+      text: `
+        <p>{{#hasOneResult}}{{/hasOneResult}}</p>
+        <p>{{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} brands ranked by relevance{{/hasManyResults}}</p>
+      `,
+    },
+  }),
+  
   instantsearch.widgets.refinementList({
     container: '#category',
     attribute: 'categories',
@@ -57,6 +69,7 @@ instantsearch.widgets.hits({
     showFirst: true,
     showLast: true,
     scrollTo: '#searchbox',
+
   }),
 ]);
 
@@ -77,6 +90,8 @@ function getTemplate(templateName) {
 }
 
 function getNothing(templateName) {
+  
   return document.querySelector(`#${templateName}-template`).innerHTML;
   //hide elements using DOM
 }
+
