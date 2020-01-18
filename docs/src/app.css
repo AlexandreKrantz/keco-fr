@@ -45,4 +45,8 @@ body { font-family: sans-serif; }
 .ais-Pagination-link:hover {
   color: #343a40;
   border-color: #343a40;
+
+}
+.ais-Pagination-item--disabled {
+  display: none;
 }

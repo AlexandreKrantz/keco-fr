@@ -54,6 +54,9 @@ instantsearch.widgets.hits({
 
   instantsearch.widgets.pagination({
     container: '#pagination',
+    showFirst: true,
+    showLast: true,
+    scrollTo: '#searchbox',
   }),
 ]);
 
