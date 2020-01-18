@@ -3,7 +3,7 @@
 const searchClient = algoliasearch('JANRA19K71', 'a345491e56ba7434a97d791f379a5a0b');
 
 const search = instantsearch({
-  indexName: 'dev_BCORP',
+  indexName: 'bcorp',
   searchClient,
   routing:true
 });
