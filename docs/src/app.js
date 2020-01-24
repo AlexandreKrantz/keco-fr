@@ -40,8 +40,7 @@ instantsearch.widgets.hits({
     container: '#hits',
     templates: {
       item: `
-        <div class="hit-template">
-          <div class="row">
+        <div class="hit-template row">
             <div class="col-sm-4" id="hit-image">
               <a href="{{url}}" target="_blank"> 
                 <img src="{{image}}" alt="{{name}}" class="rounded img-fluid" />
@@ -57,8 +56,6 @@ instantsearch.widgets.hits({
                 <p>{{description}}</p>
               </div>
             </div>
-          </div>
-
         </div>
       `,
       empty: getNothing('no-results'),
