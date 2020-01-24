@@ -15,17 +15,6 @@ search.addWidgets([
     placeholder: 'Search for an item',
   }),
   	
-
-  instantsearch.widgets.stats({
-    container: '#stats',
-    templates: {
-      text: `
-        {{#hasNoResults}}No results{{/hasNoResults}}
-        {{#hasOneResult}}1 brand found{{/hasOneResult}}
-        {{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} brands by relevance{{/hasManyResults}}
-      `,
-    },
-  }),
   
   instantsearch.widgets.refinementList({
     container: '#category',
@@ -58,7 +47,17 @@ instantsearch.widgets.hits({
             </div>
         </div>
       `,
-      empty: getNothing('no-results'),
+      empty: `
+        <div id="no-results-message" class="card"> 
+          <div class="card-body">
+            <h5 class="card-title">We couldn't find any sustainable brands that sell "{{query}}".</h5>
+            <p class="card-text">Try removing a filter or changing the query. Buying it used may also be a good option.</p>
+            <a href="." class="clear-all btn btn-secondary btn-md" role="button">Clear search</a>
+            <a href="https://www.ebay.fr/sch/i.html?_from=R40&_sacat=0&_nkw={{query}}&_dcat=3247&rt=nc&LH_ItemCondition=2000|2500|3000" class="clear-all btn btn-success btn-md" role="button">Buy it used</a>
+
+          </div>
+        </div>
+      `,
     },
   }),
 
@@ -84,10 +83,6 @@ search.addWidgets([
 search.start();
 
 function getTemplate(templateName) {
-  return document.querySelector(`#${templateName}-template`).innerHTML;
-}
-
-function getNothing(templateName) {
   
   return document.querySelector(`#${templateName}-template`).innerHTML;
   //hide elements using DOM
