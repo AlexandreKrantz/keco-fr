@@ -40,7 +40,7 @@ instantsearch.widgets.hits({
     container: '#hits',
     templates: {
       item: `
-        <div class="container-fluid hit-template">
+        <div class="hit-template">
           <div class="row">
             <div class="col-sm-4" id="hit-image">
               <a href="{{url}}" target="_blank"> 
