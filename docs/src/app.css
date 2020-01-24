@@ -1,6 +1,6 @@
 .ais-ClearRefinements { margin: 1em 0; }
 
-.ais-SearchBox { margin: 1em 0; }
+.ais-SearchBox { margin-top: 1em;}
 
 .ais-Pagination { margin-top: 1em; }
 
@@ -50,3 +50,10 @@
 }
 
 .ais-Stats-text { color: #888; font-size: 14px;}
+
+.ais-SearchBox-submitIcon { width: 17px; height: 17px;}
+.ais-SearchBox-submit {left: 15px;}
+.ais-SearchBox-resetIcon { width: 15px; height: 15px;}
+.ais-SearchBox-reset { right: 15px;}
+
+.ais-SearchBox-input { padding: .3rem 3rem;}
