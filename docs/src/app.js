@@ -29,8 +29,11 @@ search.addWidgets([
     attribute: 'categories',
     showMore: true,
     cssClasses: {
-      item: 'MyCustomRefinementList',
-      list: 'list-group list-group-flush',
+      item: 'list-group-item',
+      list: 'list-group',
+      showMore: 'btn btn-outline-secondary btn-block',
+      count: 'badge badge-pill badge-secondary'
+
     },
   }),
   instantsearch.widgets.refinementList({
@@ -38,8 +41,10 @@ search.addWidgets([
     attribute: 'location',
     showMore: true,
     cssClasses: {
-      item: 'MyCustomRefinementList',
-      list: 'list-group list-group-flush',
+      item: 'list-group-item',
+      list: 'list-group',
+      showMore: 'btn btn-outline-secondary btn-block',
+      count: 'badge badge-pill badge-secondary'
     },
   }),
 
@@ -118,3 +123,6 @@ function getTemplate(templateName) {
   //hide elements using DOM
 }
 
+function getHeader(title) {
+  return `<h3>${title}</h3>`;
+}
