@@ -13,23 +13,46 @@ search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
     placeholder: 'Search for an item',
+    showReset: false,
+    showSubmit: false,
+    cssClasses: {
+      input: 'form-control',      
+    },
+    templates: {
+      submit: '',
+    },
   }),
   	
   
   instantsearch.widgets.refinementList({
     container: '#category',
     attribute: 'categories',
+    showMore: true,
+    cssClasses: {
+      item: 'MyCustomRefinementList',
+      list: 'list-group list-group-flush',
+    },
   }),
   instantsearch.widgets.refinementList({
     container: '#location',
     attribute: 'location',
+    showMore: true,
+    cssClasses: {
+      item: 'MyCustomRefinementList',
+      list: 'list-group list-group-flush',
+    },
   }),
 
 instantsearch.widgets.hits({
     container: '#hits',
+    cssClasses: {
+      item: 'list-group-item border-0',
+      list: 'list-group',
+    },
     templates: {
       item: `
-        <div class="hit-template row">
+        <div class="hit-template card">
+        <div class="card-body row">
             <div class="col-sm-4" id="hit-image">
               <a href="{{url}}" target="_blank"> 
                 <img src="{{image}}" alt="{{name}}" class="rounded img-fluid" />
@@ -37,14 +60,15 @@ instantsearch.widgets.hits({
             </div>
 
             <div class="col-sm-8">
-              <div class="hit-name">
+              <div class="hit-name card-title">
                 <h5><a href="{{url}}" target="_blank">{{name}}</a> <a href="{{BCORP_url}}"><span class="hit-rating badge badge-secondary float-right">\{{Overall}}</span></a></h5>
               </div>
 
-              <div class="hit-description">
+              <div class="hit-description card-text">
                 <p>{{description}}</p>
               </div>
             </div>
+        </div>
         </div>
       `,
       empty: `
@@ -66,6 +90,12 @@ instantsearch.widgets.hits({
     showFirst: true,
     showLast: true,
     scrollTo: '#searchbox',
+    cssClasses: {
+      root: 'MyCustomPagination',
+      list: 'pagination',
+      item: 'page-item',
+      link: 'page-link',
+    },
 
   }),
 ]);
