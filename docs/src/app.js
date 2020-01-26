@@ -30,10 +30,14 @@ search.addWidgets([
   instantsearch.widgets.refinementList({
     container: '#category',
     attribute: 'categories',
+    showMore: true,
+
   }),
   instantsearch.widgets.refinementList({
     container: '#location',
     attribute: 'location',
+    showMore: true,
+
   }),
 
 instantsearch.widgets.hits({
