@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#000000">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#000000">
 
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="shortcut icon" href="./src/img/logo.png">
+	<link rel="manifest" href="./manifest.webmanifest">
+	<link rel="shortcut icon" href="./src/img/logo.png">
 
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,84 +20,41 @@
 	gtag('config', 'UA-153844674-3');
 	</script>
 
-  <!--Algolia-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
+	<!--Algolia-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
 
-  <!--FONTAWESOME-->
-  <script src="https://kit.fontawesome.com/f94ba2d3aa.js" crossorigin="anonymous"></script>
+	<!--FONTAWESOME-->
+	<script src="https://kit.fontawesome.com/f94ba2d3aa.js" crossorigin="anonymous"></script>
 
-  <!--Bootstrap CDN-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
 
-  <link rel="stylesheet" href="./src/index.css">
-  <link rel="stylesheet" href="./src/app.css">
+	<link rel="stylesheet" href="./src/index.css">
+	<link rel="stylesheet" href="./src/app.css">
 
-  <title>Keco France</title>
-  <meta name="description" content="Simply search for a product and you'll be connected to the most sustainable brands that sell it. Every brand featured on this website is a Certified B Corporation meaning they meet the highest standards of social and environmental impact."/>
+	<title>Keco France</title>
+	<meta name="description" content="Simply search for a product and you'll be connected to the most sustainable brands that sell it. Every brand featured on this website is a Certified B Corporation meaning they meet the highest standards of social and environmental impact."/>
 </head>
 
 <body>
 
 	<main>
-	<div class="ais-InstantSearch">
-		<div id="searchbox" class="mx-auto col-md-8"></div>
+		<div class="ais-InstantSearch">
+			<div id="searchbox" class="mx-auto col-md-8"></div>
 
-		<div class="row">
-			<div class="left-panel col-md-4 d-none d-md-block">
-				<div id="category" class="facet"></div>
-				<div id="location" class="facet"></div>
-			</div>
-			<div class="right-panel col-md-8">
-				<div id="hits"></div>
-				<div id="pagination"></div>
+			<div class="row">
+				<div class="left-panel col-md-4 d-none d-md-block">
+					<div id="category" class="facet"></div>
+					<div id="location" class="facet"></div>
+				</div>
+				<div class="right-panel col-md-8">
+					<div id="hits"></div>
+					<div id="pagination"></div>
+				</div>
 			</div>
 		</div>
-	</div>
 	</main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="about.html">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="contact.html">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="terms.html">Terms of Use</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Alexandre Krantz</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
 
 	<script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.1.1"></script>

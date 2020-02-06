@@ -50,10 +50,6 @@ search.addWidgets([
 
 instantsearch.widgets.hits({
     container: '#hits',
-    cssClasses: {
-      item: 'list-group-item border-0',
-      list: 'list-group',
-    },
     templates: {
       item: `
         <div class="hit-template card">
