@@ -29,11 +29,13 @@ search.addWidgets([
     attribute: 'categories',
     showMore: true,
     cssClasses: {
-      item: 'list-group-item',
+      item: 'list-group-item list-group-item-action',
       list: 'list-group',
       showMore: 'btn btn-outline-secondary btn-block',
-      count: 'badge badge-pill badge-secondary'
-
+      count: 'badge badge-pill badge-secondary',
+      selectedItem: 'active',
+      disabledShowMore: 'invisible',
+      checkbox:'invisible'
     },
   }),
   instantsearch.widgets.refinementList({
@@ -41,10 +43,13 @@ search.addWidgets([
     attribute: 'location',
     showMore: true,
     cssClasses: {
-      item: 'list-group-item',
+      item: 'list-group-item list-group-item-action',
       list: 'list-group',
       showMore: 'btn btn-outline-secondary btn-block',
-      count: 'badge badge-pill badge-secondary'
+      count: 'badge badge-pill badge-secondary',
+      selectedItem: 'active',
+      disabledShowMore: 'invisible',
+      checkbox:'invisible'
     },
   }),
 
