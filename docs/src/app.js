@@ -30,12 +30,12 @@ search.addWidgets([
     showMore: true,
     cssClasses: {
       item: 'list-group-item list-group-item-action',
-      list: 'list-group',
+      list: 'list-group-flush',
       showMore: 'btn btn-outline-secondary btn-block',
-      count: 'badge badge-pill badge-secondary',
+      count: 'badge badge-pill badge-dark',
       selectedItem: 'active',
-      disabledShowMore: 'invisible',
-      checkbox:'invisible'
+      disabledShowMore: 'd-none',
+      checkbox:'d-none'
     },
   }),
   instantsearch.widgets.refinementList({
@@ -44,12 +44,12 @@ search.addWidgets([
     showMore: true,
     cssClasses: {
       item: 'list-group-item list-group-item-action',
-      list: 'list-group',
+      list: 'list-group-flush',
       showMore: 'btn btn-outline-secondary btn-block',
-      count: 'badge badge-pill badge-secondary',
+      count: 'badge badge-pill badge-dark',
       selectedItem: 'active',
-      disabledShowMore: 'invisible',
-      checkbox:'invisible'
+      disabledShowMore: 'd-none',
+      checkbox:'d-none'
     },
   }),
 
