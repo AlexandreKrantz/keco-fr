@@ -97,10 +97,11 @@ instantsearch.widgets.hits({
     showLast: true,
     scrollTo: '#searchbox',
     cssClasses: {
-      root: 'MyCustomPagination',
       list: 'pagination',
       item: 'page-item',
       link: 'page-link',
+      selectedItem: 'page-item active',
+      disabledItem: 'd-none'
     },
 
   }),
