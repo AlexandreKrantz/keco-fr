@@ -1,60 +1,61 @@
 /* global algoliasearch instantsearch */
 
-const searchClient = algoliasearch('JANRA19K71', 'a345491e56ba7434a97d791f379a5a0b');
+const searchClient = algoliasearch(
+  "JANRA19K71",
+  "a345491e56ba7434a97d791f379a5a0b"
+);
 
 const search = instantsearch({
-  indexName: 'bcorp',
+  indexName: "bcorp",
   searchClient,
-  routing:true
-
+  routing: true,
 });
 
 search.addWidgets([
   instantsearch.widgets.searchBox({
-    container: '#searchbox',
-    placeholder: 'Search for an item',
+    container: "#searchbox",
+    placeholder: "Search for an item",
     showReset: false,
     showSubmit: false,
     cssClasses: {
-      input: 'form-control form-control-lg',      
+      input: "form-control form-control-lg",
     },
     templates: {
-      submit: '',
-    },
-  }),
-  	
-  
-  instantsearch.widgets.refinementList({
-    container: '#category',
-    attribute: 'categories',
-    showMore: true,
-    cssClasses: {
-      item: 'list-group-item list-group-item-action',
-      list: 'list-group-flush',
-      showMore: 'btn btn-outline-secondary btn-block',
-      count: 'badge badge-pill badge-light',
-      selectedItem: 'active',
-      disabledShowMore: 'd-none',
-      checkbox:'d-none'
-    },
-  }),
-  instantsearch.widgets.refinementList({
-    container: '#location',
-    attribute: 'location',
-    showMore: true,
-    cssClasses: {
-      item: 'list-group-item list-group-item-action',
-      list: 'list-group-flush',
-      showMore: 'btn btn-outline-secondary btn-block',
-      count: 'badge badge-pill badge-light',
-      selectedItem: 'active',
-      disabledShowMore: 'd-none',
-      checkbox:'d-none'
+      submit: "",
     },
   }),
 
-instantsearch.widgets.hits({
-    container: '#hits',
+  instantsearch.widgets.refinementList({
+    container: "#category",
+    attribute: "categories",
+    showMore: true,
+    cssClasses: {
+      item: "list-group-item list-group-item-action",
+      list: "list-group-flush",
+      showMore: "btn btn-outline-secondary btn-block",
+      count: "badge badge-pill badge-light",
+      selectedItem: "active",
+      disabledShowMore: "d-none",
+      checkbox: "d-none",
+    },
+  }),
+  instantsearch.widgets.refinementList({
+    container: "#location",
+    attribute: "location",
+    showMore: true,
+    cssClasses: {
+      item: "list-group-item list-group-item-action",
+      list: "list-group-flush",
+      showMore: "btn btn-outline-secondary btn-block",
+      count: "badge badge-pill badge-light",
+      selectedItem: "active",
+      disabledShowMore: "d-none",
+      checkbox: "d-none",
+    },
+  }),
+
+  instantsearch.widgets.hits({
+    container: "#hits",
     templates: {
       item: `
         <div class="hit-template card">
@@ -92,38 +93,17 @@ instantsearch.widgets.hits({
   }),
 
   instantsearch.widgets.pagination({
-    container: '#pagination',
+    container: "#pagination",
     showFirst: true,
     showLast: true,
-    scrollTo: '#searchbox',
+    scrollTo: "#searchbox",
     cssClasses: {
-      root: 'MyCustomPagination',
-      list: 'pagination',
-      item: 'page-item',
-      link: 'page-link',
+      root: "MyCustomPagination",
+      list: "pagination",
+      item: "page-item",
+      link: "page-link",
     },
-
   }),
 ]);
 
-search.addWidgets([
-  instantsearch.widgets.analytics({
-    pushFunction(formattedParameters, state, results) {
-      window.ga('set', 'page', window.location.pathname + window.location.search);
-      window.ga('send', 'pageView');
-    },
-  })
-]);
-
-
 search.start();
-
-function getTemplate(templateName) {
-  
-  return document.querySelector(`#${templateName}-template`).innerHTML;
-  //hide elements using DOM
-}
-
-function getHeader(title) {
-  return `<h3>${title}</h3>`;
-}

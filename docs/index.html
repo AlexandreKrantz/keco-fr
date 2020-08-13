@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#000000">
+    <!--FONTAWESOME-->
+    <script
+      src="https://kit.fontawesome.com/f94ba2d3aa.js"
+      crossorigin="anonymous"
+    ></script>
 
-	<link rel="manifest" href="./manifest.webmanifest">
+    <!--Bootstrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153844674-3"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+    <!--my css-->
+    <link rel="stylesheet" href="./app.css" />
+  </head>
 
-	gtag('config', 'UA-153844674-3');
-	</script>
+  <body>
+    <div class="container-fluid ais-InstantSearch">
+      <div class="row">
+        <div id="searchbox" class="mx-auto col-md-8 my-4"></div>
+      </div>
 
-	<!--Algolia-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
+      <div class="row">
+        <div class="left-panel col-md-4 d-none d-md-block">
+          <div id="category" class="facet mb-2"></div>
+          <div id="location" class="facet mb-2"></div>
+        </div>
 
-	<!--FONTAWESOME-->
-	<script src="https://kit.fontawesome.com/f94ba2d3aa.js" crossorigin="anonymous"></script>
+        <div class="right-panel col-md-8">
+          <div id="hits"></div>
+          <div id="pagination" class="my-4"></div>
+        </div>
+      </div>
+    </div>
 
-	<!--Bootstrap CDN-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--instantsearch CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js"
+      integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js"
+      integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk="
+      crossorigin="anonymous"
+    ></script>
 
+    <!--my script-->
+    <script src="./app.js"></script>
 
-	<link rel="stylesheet" href="./app.css">
-
-	<title>Search | Keco France</title>
-</head>
-
-<body>
-	<div class="container-fluid ais-InstantSearch">
-		<div class="row">
-			<div id="searchbox" class="mx-auto col-md-8 my-4"></div>
-		</div>
-
-		<div class="row">
-			<div class="left-panel col-md-4 d-none d-md-block">
-				<div id="category" class="facet mb-2"></div>
-				<div id="location" class="facet mb-2"></div>
-			</div>
-
-			<div class="right-panel col-md-8">
-				<div id="hits"></div>
-				<div id="pagination" class="my-4"></div>
-			</div>
-		</div>
-	</div>
-
-	<script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.1.1"></script>
-	<script src="./app.js"></script>
-
-
-	<!--Bootstrap CDN-->
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
-</body>
-
+    <!--Bootstrap CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
