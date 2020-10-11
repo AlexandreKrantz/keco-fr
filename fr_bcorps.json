@@ -1,0 +1,1824 @@
+[
+	{
+		"name": "Patagonia",
+		"description": "Patagonia, Inc.'s values reflect those of a business started by a band of climbers and surfers, and the minimalist style they promoted. The approach they take toward product design demonstrates a bias for simplicity and utility.",
+		"products": [
+			"Jackets", "Vests","Fleece","Sweatshirts", "Hoodies","Sweaters","Shirts","T-Shirts","Pants", "Jeans","Snow", "Alpine Pants","Shorts","Board Shorts","Wetsuits","Waders", "Gear","Boots","Baselayers","Underwear","Socks","Hats","Scarves", "Gaiters","Gloves", "Mittens","Belts","Hoodies","Windbreaker","Rainwear","Vests","Backpacks","Laptop Bags","Totes", "Slings","Duffel", "Travel Bags","Water Bottles","Sleeping Bags","Luggage","Dresses","Skirts","Base Layers","Bikinis","One-piece Swimsuits","Bras"
+
+		],
+		"categories": [
+			"Fashion", "Sports","Outdoors","Luggage"
+		],
+		"image": "https://s3.amazonaws.com/blab-impact-published-production/public/g7OXe190bfMALmxg7uRWhgL8fRPCEeSlmiSDMVWq",
+		"url": "https://eu.patagonia.com/fr/en/home/",
+		"BCORP_url": "https://bcorporation.net/directory/patagonia-inc",
+		"location": [
+			"United States"
+		],
+		"Overall": 151.5,
+		"Governance": 17.3,
+		"Workers": 24.9,
+		"Community": 58.7,
+		"Environment": 44.8,
+		"Customers": 5.8
+	},
+	{
+		"name": "VEJA",
+		"description": "The VEJA project creates a positive chain. Sneakers are made differently using organic, agroecological and fairtrade cotton to make the sneakers canvas, wild rubber from the Amazonian Forest for its soles and innovative materials such as recycled plastic bottles to create a new mesh. VEJA is about minimalism and innovation. Their logistics and shipping run by Ateliers Sans Frontières, a rehabilitation association. Made in Brazil.",
+		"products": [
+			"Sneakers"
+
+		],
+		"categories": [
+			"Fashion"
+		],
+		"image": "https://s3.amazonaws.com/blab-impact-published-production/public/rUlq3UrApaLw8HIYy8RAOmAzyXjmHAihAjzpPRy2",
+		"url": "http://www.veja.fr/",
+		"BCORP_url": "https://bcorporation.net/directory/veja",
+		"location": [
+			"France"
+		],
+		"Overall": 84.2,
+		"Governance": 11.4,
+		"Workers": 22.1,
+		"Community": 23.9,
+		"Environment": 26.5
+	},
+	{
+		"name": "WASTE IS MORE (CLIP IT)",
+		"description": "WASTE IS MORE offers waste recovery solutions through play. With their first product CLIP IT, they have managed to market a game that is mainly based on the notions of recycling and overcycling.",
+		"products": [
+			"Construction Toys"
+
+		],
+		"categories": [
+			"Toys & Games"
+		],
+		"image": "https://s3.amazonaws.com/blab-impact-published-production/public/1ZjIamUAoaUefsMRmXrgDiUzpuWnI5kJOpz4MKvf",
+		"url": "http://www.clip-it.fr/",
+		"BCORP_url": "https://bcorporation.net/directory/waste-more-clip-it",
+		"location": [
+			"France"
+		],
+		"Overall": 80.0,
+		"Governance": 6.8,
+		"Community": 33.3,
+		"Environment": 29.9
+	},
+	{
+	"name": "recyclivre.com",
+	"description": "Since 2008, RecycLivre has offered companies, communities, businesses and individuals a free book retrieval service. The books are then sold on the internet and 10% of the selling price goes back to charities.",
+	"products": [
+		"Books",
+		"Comics",
+		"Manga"
+
+	],
+	"categories": [
+		"Books & Media"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/i7O9aiOABKv6u35WZX1aTy5JLOad3nTOrfXPJ9rz",
+	"url": "http://www.recyclivre.com/",
+	"BCORP_url": "https://bcorporation.eu/directory/recyclivrecom",
+	"location": [
+		"France"
+	],
+	"Overall": 96.1,
+	"Governance": 7.9,
+	"Workers": 17.1,
+	"Community": 40.3,
+	"Environment": 24.1,
+	"Customers": 6.7,
+},
+{
+	"name": "SQUIZ",
+	"description": " SQUIZ reusable food pouches are the only product of their type, worldwide, to source over 60% of their product cost from local suppliers. Since their commercial launch, SQUIZ has prevented the creation of over 50 tons of non-recyclable consumer waste through the use of their reusable pouches.",
+	"products": [
+		"Reusable Food Pouches"
+	],
+	"categories": [
+		"Baby & Kids",
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/XhEkWUfgoIEZ2P9WKrCv6xmEsgaYGZmSvRj9mPlq",
+	"url": "http://www.squiz.co/",
+	"BCORP_url": "https://bcorporation.net/directory/squiz",
+	"location": [
+		"France"
+	],
+	"Overall": 133.2,
+	"Governance": 12.6,
+	"Workers": 25.9,
+	"Community": 59.2,
+	"Environment": 35.5
+},
+{
+	"name": "Preserve",
+	"description": "Preserve is the leading sustainable consumer goods company and producer of stylish 100% recycled household products. Preserve turns yogurt cups into toothbrushes and take-out containers into tableware. Through innovations in recycled materials and sustainable design, Preserve has been creating more resourceful ways to make everyday products for the kitchen, table, and bathroom since 1996.",
+	"products": [
+		"Toothbrushes","Razors","Toothpicks","Food Storage Containers","Cutting Board","Colander","Bowls","Measuring Cups","Lunch Bags","Cutlery","Forks","Knives","Spoons","Straws","Bowls","Plates","Cups","Tote Bags"
+	],
+	"categories": [
+      "Beauty & Personal Care",
+      "Home & Kitchen",
+      "Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/GEUBpva9B1O8i3jKnzen5IgE3JcbtzU9xHjTTSDQ",
+	"url": "https://www.preserveproducts.eu",
+	"BCORP_url": "https://bcorporation.net/directory/preserve",
+	"location": [
+		"United States"
+	],
+	"Overall": 108.9,
+	"Governance": 15.5,
+	"Workers": 18.3,
+	"Community": 24.3,
+	"Environment": 50.8
+},
+{
+	"name": "Skagerak",
+	"description": "Skagerak is a family-owned design company from Denmark established in 1976. In its transformation to a global modern design brand, SkagerakÕs passion for quality materials and state-of-the-art craftsmanship has only grown stronger. By developing long-lasting and functional design, Skagerak aspires to facilitate memorable moments in both indoor and outdoor settings - making houses into real homes.",
+	"products": [
+		"Benches","Wardrobes","Letter Trays","Bowls","Cups","Jugs","Salad Servers","Mugs","Serving Plates","Teapots","Tables","Winer Coolers","Desks","Mirrors","Stools","Chairs","Cabinets","Pen Holders","Trays","Bread Boxes","Paper Towel Holders","Shelves","Daybeds","Bookends","Hooks","Cushions","Cutting Boards","Candle Holders","Coat Stands","Hangers","Racks","Spoons","Spatulas","Oil","Boxes","Ladders","Plates","Trivets","Blankets","Bedlinen","Towels","Hooks","Umbrellas","Lanterns","Parasols","Sofas","Poufs","Flags","Sunchairs","Sunbeds","Pillows"
+	],
+	"categories": [
+      "Home & Kitchen",
+      "Health & Household",
+      "Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/DEX8u22sO5rd2xLg9mFBiZKoH0iCP8ji5bLGx3hE",
+	"url": "https://www.skagerak.dk/fr/",
+	"BCORP_url": "https://bcorporation.net/directory/skagerak-denmark",
+	"location": [
+		"Denmark"
+	],
+	"Overall": 87.2,
+	"Governance": 10.7,
+	"Workers": 25.0,
+	"Community": 24.1,
+	"Environment": 27.4
+},
+{
+	"name": "ABURY Collection",
+	"description": "ABURY gives back the hours of production of each product in hours of education to the respective artisan community. The education projects are implemented by the ABURY Foundation that receives donations and 50% of the profits of ABURY! The artisan learns that his work is contributing not only to his better welfare but also to the better development in his community.",
+	"products": [
+		"Babouches Slippers","Raffia Summer Shoes","Shoes","Backpacks","Berber Bags","Clutch Bags","Mini Bags","Cross-Body Bags","Tote Bags","Vintage Bags","Blankets","Throws","Socks","Headbands","Beanie","Gloves","Sweaters","Fingerless Gloves","Wool Accessories","Tea Glasses","Ceramics","Bowl","Poufs","Lanterns","Business Card Holders","Coin Wallets","Jewellery","Pouches","Scarves"
+	],
+	"categories": [
+		"Arts & Crafts",
+		"Home & Kitchen",
+		"Luggage",
+		"Fashion"
+	],
+	"image": "https://cdn.shopify.com/s/files/1/0186/7382/t/25/assets/logo.png?5688",
+	"url": "http://www.abury.net/",
+	"BCORP_url": "https://bcorporation.net/directory/abury-collection",
+	"location": [
+		"Germany"
+	],
+	"Overall": 114.6,
+	"Governance": 7.6,
+	"Workers": 23.3,
+	"Community": 68.9,
+	"Environment": 14.8
+},
+{
+	"name": "All Good",
+	"description": "At Elemental Herbs, maker of All Good products, they're supporting healthy habits with the highest quality organic ingredients and wild crafted herbs. By using their products, you'll be supporting a whole chain of events that helps both people and the planet. It's not only their vision but also their practice: inspiring people to live in balance with nature.",
+	"products": [
+		"Coconut Oil","Sunscreens","Lotions","Lip Balms","Deodorants","Hand Sanitizer","Healing Products"
+	],
+	"categories": [
+      "Beauty & Personal Care",
+      "Sports & Outdoors",
+      "Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/Qv4extwmt187sOwMQSu70hagPvJJXWeaSp1MPFUB",
+	"url": "http://www.allgoodproducts.com/",
+	"BCORP_url": "https://bcorporation.net/directory/all-good-elemental-herbs",
+	"location": [
+		"United States"
+	],
+	"Overall": 122.7,
+	"Governance": 18.2,
+	"Workers": 27.2,
+	"Community": 31.8,
+	"Environment": 39.6,
+	"Customers": 5.9
+},
+{
+	"name": "Teadora",
+	"description": "Teadora creates rainforest superfruit-infused beauty & wellness products, with a commitment to rainforest conservation and restoration. Full line using the most amazing ingredients on earth, including Açaí, CBD, Andiroba, Buriti, Cupuaçu and others. Teadora is an activist brand committed to local community empowerment and the fight against climate change.",
+	"products": [
+		"Skin Oils","Beauty Butter For Face & Body","Skin Cleansers","Anti-pollution Facial Mist","Scrubs","Soap Bars","Amazonia Mud Mask","Men's Skincare","Shampoo","Conditioner","Beard Oil","Men's Grooming Set"
+	],
+	"categories": [
+      "Beauty & Personal Care",
+      "Health & Household",
+      "Baby & Kids"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/He9j1UiLffKDf0YA9EgrzuFXrHTFG3ahPC48FoE5",
+	"url": "http://www.teadorabeauty.com/",
+	"BCORP_url": "https://bcorporation.net/directory/teadora",
+	"location": [
+		"United States"
+	],
+	"Overall": 138.2,
+	"Governance": 14.7,
+	"Workers": 22.0,
+	"Community": 64.9,
+	"Environment": 36.4
+},
+{
+	"name": "WakaWaka",
+	"description": "WakaWaka makes the world's most efficient solar powered lamps and chargers. High-tech low-cost solutions for those without electricity, in the developing world and in the West.",
+	"products": [
+		"Solar Flashlights","Power Banks","Solar Panels","Chargers"
+	],
+	"categories": [
+		"Sports & Outdoors",
+		"Electronics",
+		"Tools & Home Improvement"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/S3nCFgtUMPFJYgTmMJ749NjQpsd9hjNk5FfmrAmc",
+	"url": "http://waka-waka.com/",
+	"BCORP_url": "https://bcorporation.net/directory/wakawaka",
+	"location": [
+		"Netherlands"
+	],
+	"Overall": 158.6,
+	"Governance": 6.8,
+	"Workers": 19.3,
+	"Community": 59.2,
+	"Environment": 34.6,
+	"Customers": 38.7
+},
+{
+	"name": "TOM BIHN",
+	"description": "The company is a design house, manufacturer, and direct retailer. In 2010, TOM BIHN became founding members of the UPS Carbon Neutral and UPS Eco Responsible Packaging Programs. Over 50% of fabric scraps from the manufacturing process are utilized to make new designs. TOM BIHN is operationally (scope 1, 2, 3 assessed and offset) carbon neutral.",
+	"products": [
+		"Travel Bags","Backpacks","Laptop Bags","Duffel Bags","Briefcases","Tote Bags","Messenger Bags","Travel Pillow","Wallets","Pouches"
+	],
+	"categories": [
+		"Fashion",
+		"Luggage",
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/rx7LOYeIvyK0HrKyoeXqRm1c6258KTRO",
+	"url": "http://www.tombihn.com/",
+	"BCORP_url": "https://bcorporation.net/directory/tom-bihn",
+	"location": [
+		"United States"
+	],
+	"Overall": 85.5,
+	"Governance": 17.2,
+	"Workers": 21.6,
+	"Community": 20.2,
+	"Environment": 22.5,
+	"Customers": 3.7
+},
+{
+	"name": "Burton",
+	"description": "Founded in 1977 by Jake Burton Carpenter out of his Vermont barn, Burton is proud to be the first snowboarding brand to become a B Corp™.",
+	"products": [
+		"Snowboards","Snowboard Boots","Snowboard Bindings","Anon Helmets","Anon Goggles & Lenses","Knee Pads","Wrist Guards","Protective Shorts","Gloves","Jackets","Fleece","Shirts","Flannels","Hoodies","Sweatshirts","T-Shirts","Pants","Shorts","Hats","Beanies","Belts","Wallets","Base Layers","Beanies","Headbands","Mittens","Face Masks","Neckwarmers","Socks","Bags","Backpacks","Tote Bags","Lunch Sacks","Cooler Bags","Fanny Pack","Hammock","Messenger Bags","Duffel Bags","Carry-On Luggage"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors",
+		"Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/HK3P2D2WA5zh0jcyXEZjhJYTE6dOFodH",
+	"url": "https://www.burton.com/fr/fr/home?regionSelector=true",
+	"BCORP_url": "https://bcorporation.net/directory/burton",
+	"location": [
+		"United States"
+	],
+	"Overall": 80.4,
+	"Governance": 14.1,
+	"Workers": 20.4,
+	"Community": 20.3,
+	"Environment": 21.8,
+	"Customers": 3.7
+},
+{
+	"name": "Bee's Wrap",
+	"description": "Made with GOTS-certified cotton and beeswax from sustainably kept hives, Bee's Wrap is washable, reusable, and compostable. Cover a bowl, wrap cheese, half a lemon, a crusty loaf of bread, or fruits & vegetables.",
+	"products": [
+		"Food Wrap",
+		"Food Storage"
+	],
+	"categories": [
+		"Home & Kitchen",
+		"Sports & Outdoors",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/eS0T5ZFBRHcdGsGquNXVet2jeJglLbfzRDOsF6lY",
+	"url": "http://www.beeswrap.com/",
+	"BCORP_url": "https://bcorporation.net/directory/bees-wrap",
+	"location": [
+		"United States"
+	],
+	"Overall": 82.5,
+	"Governance": 7.0,
+	"Workers": 15.8,
+	"Community": 21.0,
+	"Environment": 38.6
+},
+{
+	"name": "Starboard",
+	"description": "Starboard is one of the leading Windsurf and Paddle board manufacturers in the world, creating high performance water-sport equipment for water-lovers all around the world.",
+	"products": [
+		"Boards","Paddles","Fins","Sails","Caps","Towels","Hoodies","Fleece","Jackets","Pants","Shorts","Tees","Shirts","Backpacks","Carry-on Roller","Duffle Bags","Cargo Bags","Board Shorts","Wetsuits","Watershirts"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors",
+		"Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/URqwspdGq9jnPZBsqhKECcMi0XksCAXYvKjHkReQ",
+	"url": "https://star-board.com/",
+	"BCORP_url": "https://bcorporation.net/directory/starboard",
+	"location": [
+		"Thailand"
+	],
+	"Overall": 84.9,
+	"Governance": 8.9,
+	"Workers": 17.2,
+	"Community": 19.4,
+	"Environment": 32.4,
+	"Customers": 7.0
+},
+{
+	"name": "Tillak",
+	"description": "Innovative and affordable Goods that Give Back™. Designed/tested on the West Coast. 25% of profits go back to the environment.",
+	"products": [
+		"Waterproof Backpacks","Laptop Sleeve","Coolers","Waterproof Bags","Water Bottles","Sleeping Pads","Inflatable Pillows","Hats","Caps","Beanies","Camp Chairs"
+
+	],
+	"categories": [
+		"Fashion",
+		"Luggage",
+		"Sports & Outdoors"
+
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/IEEIOTax6wJuG11MPzaWRICitxIuJfK9msfEbqbu",
+	"url": "http://tillak.com/",
+	"BCORP_url": "https://bcorporation.net/directory/tillak",
+	"location": [
+		"United States"
+	],
+	"Overall": 99.7,
+	"Governance": 16.5,
+	"Community": 74.4,
+	"Environment": 8.7
+},
+{
+	"name": "Senda Athletics",
+	"description": "Senda Athletics was recently certified as a B Corp! Based in Berkeley, California, Senda sells top quality soccer balls and training gear, and develops long-term partnerships with non-profit organizations using sports to transform the lives of young people in the US and abroad.",
+	"products": [
+		"Soccer Balls",
+		"Futsal Shoes",
+		"T-Shirts"
+	],
+	"categories": [
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/eKOSda0jQKDA78oT2n7bDXbC4kiUHs1JiJlaVA4N",
+	"url": "http://sendaathletics.com/",
+	"BCORP_url": "https://bcorporation.net/directory/senda-athletics",
+	"location": [
+		"United States"
+	],
+	"Overall": 94.4,
+	"Governance": 19.0,
+	"Community": 59.0,
+	"Environment": 4.1,
+	"Customers": 12.3
+},
+{
+	"name": "Kammok",
+	"description": "Kammok was founded in 2010 to be an outdoor lifestyle brand that connects people with the adventure of changing lives. They produce high quality products designed for the socially conscious adventurer. Every Kammok purchase has a direct impact on helping people in need and investing in improving our natural resources.",
+	"products": [
+		"Hammocks","Hammock Tents","Blankets","Trail Quilts","Sleeping Bags","Pads","Pillows","Tarps","Storage Bags","Tees","Hats"
+	],
+	"categories": [
+		"Sport & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/b6mQvkGQJiRGHcnzQtnbJnbFcyvsaGhDncXE3vq3",
+	"url": "http://www.kammok.com/",
+	"BCORP_url": "https://bcorporation.net/directory/kammok",
+	"location": [
+		"United States"
+	],
+	"Overall": 80.2,
+	"Governance": 15.3,
+	"Workers": 20,
+	"Community": 29.7,
+	"Environment": 15.2
+},
+{
+	"name": "Comet Skateboards",
+	"description": "Comet Skateboards is a skateboard manufacturer committed to the use and development of eco-effective processes and materials with the goal of closed-loop manufacturing as their guiding light.",
+	"products": [
+		"Skateboards"
+	],
+	"categories": [
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/YqkmMRjI8DWAt18k1lYCz9VEtpKcNzuevGwKXE1s",
+	"url": "http://cometskateboards.com/",
+	"BCORP_url": "https://bcorporation.net/directory/comet-skateboards",
+	"location": [
+		"United States"
+	],
+	"Overall": 91.6,
+	"Governance": 17.1,
+	"Community": 43.3,
+	"Environment": 31.1
+},
+{
+	"name": "P.L.A.Y. Pet Lifestyle and You",
+	"description": "P.L.A.Y. Pet Lifestyle and You is a California corporation headquartered in San Francisco, CA. The company was founded in 2011 and specializes in the creation and design of safe, responsibly made, and eco-friendly pet beds and toys. P.L.A.Y.’s team is comprised 6 employees; the team is small and close-knit, and they are devoted, hard-working and committed, treating each other as an extended part of their family.",
+	"products": [
+		"Dog Beds",
+		"Cat Toys",
+		"Dog Toys"
+	],
+	"categories": [
+		"Pet Supplies"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/zNG1rgmddV8EqGFQDB8SarECBa8Ys5pOv0KyZT00",
+	"url": "http://www.petplay.com/",
+	"BCORP_url": "https://bcorporation.net/directory/play-pet-lifestyle-and-you-inc",
+	"location": [
+		"United States"
+	],
+	"Overall": 87.5,
+	"Governance": 17.8,
+	"Workers": 18.5,
+	"Community": 22.4,
+	"Environment": 28.6
+},
+{
+	"name": "Fully",
+	"description": "The idea behind Fully is simple: movement is good. When you move, when you are fully in your body, more of you shows up to work, to relationships, to life. With wellness in mind, Fully designs and sells desks, chairs & things to keep you moving.",
+	"products": [
+		"Standing Desks",
+		"Chairs",
+		"Tables",
+		"Recycling Bins",
+		"Desk Shelf",
+		"Desk Drawer",
+		"File Cabinet",
+		"Desk Lamp",
+		"Floor Lamp",
+		"Monitor Arms",
+		"Laptop Stands"
+	],
+	"categories": [
+		"Home & Kitchen",
+		"Health & Household",
+		"Tools & Home Improvement"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/NwmEmebKLvCC3mutq8mXYcnTzkOYQAvMiza0RE9i",
+	"url": "https://www.fully.eu/",
+	"BCORP_url": "https://bcorporation.net/directory/fully",
+	"location": [
+		"United States",
+		"France",
+		"Belgium"
+	],
+	"Overall": 89.9,
+	"Governance": 5.9,
+	"Workers": 24.5,
+	"Community": 22.1,
+	"Environment": 30.6,
+	"Customers": 6.8
+},
+{
+	"name": "soulbottles ",
+	"description": "soulbottles are premium-quality plastic-free drinking bottles with various beautiful designs. They are made from high-quality glass and are produced carbon-neutrally in Germany. 1€ per soulbottle goes to clean water projects.",
+	"products": [
+		"Bottles",
+		"Water Filters"
+	],
+	"categories": [
+		"Sports & Outdoors",
+		"Home & Kitchen",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/0t6JOfxG6KdhuIkar5uzzyaTj8rCubJBWKuxTYdK",
+	"url": "https://www.soulbottles.de/en",
+	"BCORP_url": "https://bcorporation.net/directory/soulproducts-gmbh",
+	"location": [
+		"Germany"
+	],
+	"Overall": 106.1,
+	"Governance": 6.9,
+	"Workers": 23.8,
+	"Community": 50.9,
+	"Environment": 22,
+	"Customers": 2.5
+},
+{
+	"name": "Ecoalf",
+	"description": "Ecoalf is a fashion brand born with the idea of being a sustainable brand and using just waste to create a new generation of recycled fabrics with a very high quality.",
+	"products": [
+		"Jackets & Coats","Vests","Shirts and T-shirts","Pants","Sweaters","Knitwear","Sneakers","Flip Flops","Wash Bags","Backpacks"
+	],
+	"categories": [
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/Z4VfMAJaOhYA4LqHpiIna999dmaOH1Xbsj8IRTMr",
+	"url": "https://ecoalf.com/",
+	"BCORP_url": "httuh",
+	"location": [
+		"Spain"
+	],
+	"Overall": 81.8,
+	"Governance": 14.8,
+	"Workers": 17.2,
+	"Community": 17.7,
+	"Environment": 32.1
+},
+{
+	"name": "A Good Company",
+	"description": "A Good Company wants to inspire people to transform from mindless consumption into conscious. They refuse to take shortcuts, and obsess over every single step in the journey of our products, from how they are made to how they end up on your doorstep. They always walk the extra mile to improve our products and our processes, to ensure that we always are as responsible as we humanly can be.",
+	"products": [
+		"Toothbrushes","Notebooks","Bottles","Phone Chargers","Pens","Sketchbooks","Bullet Point Journal","Straws","Cutlery Sets","Glue Sticks","Crayons","Pocket Diaries","Paints","Clay","Pencils"
+	],
+	"categories": [
+		"Office Products",
+		"Electronics",
+		"Home & Kitchen",
+		"Health & Household",
+		"Tools & Home Improvement"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/KyVBWUxhPQMasENh6TSGfn7Afl9Hzmu0LxaQj20D",
+	"url": "http://agood.com/",
+	"BCORP_url": "https://bcorporation.net/directory/a-good-company",
+	"location": [
+		"Sweden"
+	],
+	"Overall": 82.2,
+	"Governance": 7.3,
+	"Workers": 25.3,
+	"Community": 26.6,
+	"Environment": 22.8
+},
+{
+	"name": "Paper on the Rocks",
+	"description": "Nature-friendly notebooks. That’s their short summary. The long one? They use tree-free, kind-to-resources paper, made from construction and agricultural waste to make notebooks of the highest quality. Designed for smooth writing, doodling, and drawing. Ideal for writers, creatives, professionals, and anyone that wants to change the world by the stroke of a pen. ",
+	"products": [
+		"Notebooks"
+	],
+	"categories": [
+		"Office Products"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/Ur6xEfcCxT4vNXqOtTSaMXXaMjDcdzQj6YEME4zH",
+	"url": "http://www.paperontherocks.com/",
+	"BCORP_url": "https://bcorporation.net/directory/on-the-rocks",
+	"location": [
+		"Netherlands"
+	],
+	"Overall": 88.9,
+	"Governance": 16.8,
+	"Community": 46.4,
+	"Environment": 25.7
+},
+{
+	"name": "MiaDonna",
+	"description": "They take pride in leading a new ear in the diamond industry. From your purchase, 10% of the net profits are used to fund educational, mentorship, agricultural, and urgent relief programs in diamond mining communities through their foundation, The Greener Diamond. They also plant a tree with every order through One Tree Planted to offset the carbon emissions created through shipping.",
+	"products": [
+		"Diamond Rings","Earrings","Pendants","Necklaces","Bracelets"
+
+	],
+	"categories": [
+		"Fashion",
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/3oDlxLdwf8dbnSIyCwLBakLfspVvbKkq",
+	"url": "http://www.miadonna.com/",
+	"BCORP_url": "https://bcorporation.net/directory/mia-donna-company",
+	"location": [
+		"United States"
+	],
+	"Overall": 92.9,
+	"Governance": 13.4,
+	"Workers": 19.1,
+	"Community": 42.1,
+	"Environment": 18.1
+},
+{
+	"name": "Dogeared",
+	"description": "Dogeared believes good things happen. The brand is more than a jewelry line and embraces the stories, happy moments, milestones and experiences… that celebrate, connect and inspire customers.",
+	"products": [
+		"Rings","Earrings","Necklaces","Bracelets"
+
+	],
+	"categories": [
+		"Fashion",
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/M5gjweCzZYMTj56z1NtRkx8SOg0xE6QWAHLyim6Q",
+	"url": "http://www.dogeared.com/",
+	"BCORP_url": "https://bcorporation.net/directory/dogeared",
+	"location": [
+		"United States"
+	],
+	"Overall": 97.6,
+	"Governance": 16.4,
+	"Workers": 20.5,
+	"Community": 43.8,
+	"Environment": 16.9
+},
+{
+	"name": "ecoBirdy",
+	"description": "Based in Antwerp, ecoBirdy has created a whole system from the collection and recycling of old plastic toys to the design and production of the furniture. After two years of intense research, ecoBirdy has brought valuable innovation for plastic recycling, presenting its four-piece collection of design furniture entirely made of recycled plastic and easily and completely recyclable again. An accompanying storybook and school-program introduces youngsters to the concept of circular design and inspires them to contribute to a more sustainable future.",
+	"products": [
+		"Chairs","Tables","Containers","Lights","Lamps"
+	],
+	"categories": [
+		"Home & Kitchen",
+		"Health & Household",
+		"Tools & Home Improvement"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/dehy6qxXUVAgMYFXUx07OHQktS3GnMxZ",
+	"url": "http://www.ecobirdy.com/",
+	"BCORP_url": "https://bcorporation.net/directory/eco-birdy",
+	"location": [
+		"Belgium",
+		"France"
+	],
+	"Overall": 94.9,
+	"Governance": 6.8,
+	"Community": 22,
+	"Environment": 63.7,
+	"Customers": 2.3
+},
+{
+	"name": "Norlha",
+	"description": "Norlha is a social enterprise whose mission is to bring beautifully handwoven yak khullu products from the Tibetan Plateau to the world, all while empowering the lives of former nomads and Tibetan communities.",
+	"products": [
+		"Scarves","Shawls","Ponchos","Dresses","Jackets","Vests","Shirt Jackets","Pullovers","Long Coats","Shirts","Skirts","Trousers","Tunics","Capes","Neckwarmers","Beanies","Baby Hats","Hand Warmers","Stuffies","Baby Booties","Blankets","Cushions","Carpets","Toys"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors",
+		"Toys & Games",
+		"Baby"
+
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/3mqRnZ42zFyvtqPywo5J3JHvRQmQlZ8rhwMMkRZu",
+	"url": "http://www.norlha.com/",
+	"BCORP_url": "https://bcorporation.net/directory/norlha",
+	"location": [
+		"China"
+	],
+	"Overall": 125.2,
+	"Governance": 8,
+	"Workers": 14.9,
+	"Community": 87.5,
+	"Environment": 14.6
+},
+{
+	"name": "Haptic Lab",
+	"description": "Haptic Lab is a textile design studio that produces goods to celebrate the sense of touch. Our mission is to create meaningful, positive connections between people and planet.",
+	"products": [
+		"Quilt Coats",
+		"Quilts",
+		"Kites",
+		"DIY Quilts"
+	],
+	"categories": [
+		"Sports & Outdoors",
+		"Fashion",
+		"Arts & Crafts",
+		"Home & Kitchen"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/k6bRCqxbhKfZIpErA0P9ZYDfGrFH2K24cCSU70EM",
+	"url": "http://www.hapticlab.com/",
+	"BCORP_url": "https://bcorporation.net/directory/haptic-lab",
+	"location": [
+		"United States"
+	],
+	"Overall": 87.8,
+	"Governance": 15.8,
+	"Workers": 19,
+	"Community": 26.5,
+	"Environment": 26.3
+},
+{
+	"name": "wehlers",
+	"description": "wehlers was established in 2015 and from the very beginning they knew that they wanted to build a sustainable company. They love furniture and design but making beautiful and high quality furniture was just not enough. In their understanding wehlers products also had to have a positive global impact.",
+	"products": [
+		"Chairs",
+		"Coffee Tables",
+		"Bowls",
+		"Tables",
+		"Stools"
+	],
+	"categories": [
+		"Home & Kitchen"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/VlkX7yhdOKMYlJ7DDg3g9RcItItUp1Di30YrKK4X",
+	"url": "https://wehlersshop.com/",
+	"BCORP_url": "https://bcorporation.net/directory/wehlers",
+	"location": [
+		"Denmark"
+	],
+	"Overall": 82.9,
+	"Governance": 10.3,
+	"Workers": 18.2,
+	"Community": 19.9,
+	"Environment": 34.4
+},
+{
+	"name": "Alima Pure",
+	"description": "Alima Pure™ makes mineral makeup using only the purest cosmetic-grade mineral pigments. Mineral makeup is composed of finely powdered, lab-purified mineral pigments, and nothing more. There are no additives, fillers or fragrances that can irritate your skin or clog your pores. In fact, the pigments they use are actually beneficial to your skin, offering sun protection and anti-inflammatory properties. So you look your best and your skin can breathe.",
+	"products": [
+		"Blush","Brow Pencils","Concealer","Cream","Eyeliner","Eyeshadow","Finishing Powder","Foundation","Highlighter","Lip Balm","Eye Primer","Mascara","Eye Pencil","Eyeshadow"
+	],
+	"categories": [
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/pndA3exaiXBohLmreqe7D5ZpLdVYKcaSNr9iQDeA",
+	"url": "http://alimapure.com/",
+	"BCORP_url": "https://bcorporation.net/directory/alima-cosmetics-inc",
+	"location": [
+		"United States"
+	],
+	"Overall": 80.1,
+	"Governance": 13.4,
+	"Workers": 19.2,
+	"Community": 18.7,
+	"Environment": 28.7
+},
+{
+	"name": "GladRags",
+	"description": "GladRags is a small business with big ideas: to make cloth pads and menstrual cups go mainstream and empower menstruators everywhere.",
+	"products": [
+		"Cloth Pads",
+		"Menstrual Cups"
+	],
+	"categories": [
+		"Beauty & Personal Care",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/BzwvddaWWHwUJIfCvxfyLUIjvYhY9h3b31uLNdcn",
+	"url": "http://www.gladrags.com/",
+	"BCORP_url": "https://bcorporation.net/directory/gladrags",
+	"location": [
+		"United States"
+	],
+	"Overall": 100.5,
+	"Governance": 15.2,
+	"Workers": 18.1,
+	"Community": 23.2,
+	"Environment": 33.1,
+	"Customers": 10.7
+},
+{
+	"name": "Good Clean Love",
+	"description": "Good Clean Love manufactures premium certified organic and all natural intimacy products consistent with their mission to increase the awareness and experience of love on the planet.",
+	"products": [
+		"Personal Lubricant","Vaginal Gel","Moisturizing Wash","Feminine Wipes","Vaginal Probiotic Supplement","Love Oil","Perfume","Cologne"
+	],
+	"categories": [
+		"Beauty & Personal Care",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/cRHjqyzVREDSaktNRp5yGdVBzmfJvMdI29QnXEiX",
+	"url": "http://www.goodcleanlove.com/",
+	"BCORP_url": "https://bcorporation.net/directory/good-clean-love",
+	"location": [
+		"United States"
+	],
+	"Overall": 89.9,
+	"Governance": 16.5,
+	"Workers": 19.9,
+	"Community": 28.8,
+	"Environment": 24.7
+},
+{
+	"name": "Moon Valley Organics",
+	"description": "Started in 1998, Moon Valley Organics has stayed true to their passion of living ethically and sustainably. Their body care products are developed with the intention to nourish and heal your body, mind, and spirit, as well as to care for the Earth. Moon Valley's products contain sustainable, organic material, and packing is chosen so it that does the least harm, and is recyclable and renewable. Moon Valley is growing to include national distribution while maintaining their local connections.",
+	"products": [
+		"Body Bars","Hand Soap","Lotion Bar","Lip Balm","Medicinal Salves & Balms","T-shirts","Beanies","Hoodies"
+	],
+	"categories": [
+      "Beauty & Personal Care",
+      "Health & Household",
+      "Baby",
+      "Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/hJF9O8TC5q4omwZFeF8TZXd4t3Kbbq0xIUD3V3OC",
+	"url": "https://www.moonvalleyorganics.com/",
+	"BCORP_url": "https://bcorporation.net/directory/moon-valley-organics",
+	"location": [
+		"United States"
+	],
+	"Overall": 80.1,
+	"Governance": 11.8,
+	"Workers": 15.7,
+	"Community": 19.9,
+	"Environment": 32.6
+},
+{
+	"name": "Meliora Cleaning Products",
+	"description": "Meliora Cleaning Products is a manufacturer of People- and Planet-Friendly home cleaning and laundry products. Based in Chicago, IL, all products are made in their facility that's open to the public.",
+	"products": [
+		"Laudry Powder","Laundry Stain Removal","Oxygen Brightener - A Plastic-Free Bleach Alternative","Dish Soap","Home Cleaning Scrub","Home Cleaner","Rags / Tea Towels","Bath Soap Bars","Body Soap Bars"
+	],
+	"categories": [
+		"Health & Household",
+		"Home & Kitchen",
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/BoWC93RlI5kaqzkQaVEhLm2Ak6HKbsS4Gf0HHuCU",
+	"url": "http://www.meliorameansbetter.com/",
+	"BCORP_url": "https://bcorporation.net/directory/meliora-cleaning-products",
+	"location": [
+		"United States"
+	],
+	"Overall": 116.1,
+	"Governance": 13.6,
+	"Community": 76.1,
+	"Environment": 26.4
+},
+{
+	"name": "Dr. Bronner's",
+	"description": "Family-owned and run, Dr. Bronner’s honors the vision of its founder Dr. E.H. Bronner by making socially and environmentally responsible products of the highest quality, while dedicating its profits to help make a better world.",
+	"products": [
+		"Liquid Soaps","Bar Soaps","Sugar Soaps","Organic Lotions","Toothpaste","Shaving Soaps","Hair Care","Skin Balm","Lip Balm","Hand Sanitizer","Multi-purpose Dishes Cleaner"," Multi-purpose Floor Cleaner","Multi-purpose Laundry Cleaner","Coconut Oil"
+	],
+	"categories": [
+      "Beauty & Personal Care",
+      "Home & Kitchen",
+      "Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/8zKKN8fNfb3cti9jvf2RVtPap660GjvleOyhyppp",
+	"url": "https://www.drbronner.de/fr/",
+	"BCORP_url": "https://bcorporation.net/directory/dr-bronners",
+	"location": [
+		"United States",
+		"Germany"
+	],
+	"Overall": 177.8,
+	"Governance": 15.4,
+	"Workers": 29.3,
+	"Community": 68.5,
+	"Environment": 64.5,
+	"Customers": 0.1
+},
+{
+	"name": "Blue Beautifly",
+	"description": "Manufacturer of organic, plant-based, Non-GMO, and cruelty-free (no animal testing and no animal-based ingredients) face and body care products.",
+	"products": [
+		"Deodorants",
+		"Body Oils",
+		"Facial Cleansing Bars",
+		"Mud Mask Powder",
+		"Exfoliant",
+		"Cleansing Oils"
+
+	],
+	"categories": [
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/dtu3StnPqfHoJYY0t21Kq0Wkv8IavCisaP9ryGIe",
+	"url": "http://www.bluebeautifly.com/",
+	"BCORP_url": "https://bcorporation.net/directory/blue-beautifly-llc",
+	"location": [
+		"United States"
+	],
+	"Overall": 100.2,
+	"Governance": 9.2,
+	"Workers": 9.2,
+	"Community": 47.5,
+	"Environment": 30.5,
+	"Customers": 3.7
+},
+{
+	"name": "MuLondon",
+	"description": "MuLondon brings joy and balance with its award-winning skin care range from London, inspired by traditional herbalism. Pure natural essential oils and herbal extracts are used to divinely scent and gently preserve the certified organic ingredients. MuLondon products include such luxurious essences as ‘Marigold, Frankincense & Myrrh’ and ‘Rose, Rosehip & Rosemary’.",
+	"products": [
+		"Moisturisers",
+		"Cleansers"
+	],
+	"categories": [
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/QGzl7J9MXK6kRY3jVwC6PwPI4WYc1Xyttsp8390x",
+	"url": "http://www.mulondon.com/",
+	"BCORP_url": "https://bcorporation.net/directory/mulondon",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 86.7,
+	"Governance": 12,
+	"Community": 48,
+	"Environment": 26.7
+},
+{
+	"name": "Dr. Brite",
+	"description": "Dr. Brite is an oral and skin care company that delivers safe, effective and affordable products for the entire family. Committed to creating all-natural, organic oral and skin care solutions, their formulas are made in small batches using the highest-quality, responsibly sourced ingredients.",
+	"products": [
+		"Teeth Whitening",
+		"Toothpaste",
+		"Mouthwashe",
+		"Toothbrush",
+		"Oral Sprays",
+
+	],
+	"categories": [
+		"Heath & Household",
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/srFsAyq9yGrAAcxg4bC45yZxZaxU2kPAXKDOMWTa",
+	"url": "http://www.drbrite.com/",
+	"BCORP_url": "https://bcorporation.net/directory/dr-brite",
+	"location": [
+		"United States"
+	],
+	"Overall": 88.9,
+	"Governance": 5.9,
+	"Workers": 16,
+	"Community": 38.5,
+	"Environment": 28.5
+},
+{
+	"name": "Beauty Kitchen",
+	"description": "At Beauty Kitchen they always make 100% effective, natural and affordable products. Their recipes only contain 100% pure essential oils plus naturally derived ingredients that will never cost the earth.",
+	"products": [
+		"Facial Oil","Eye Serum","Skin Moisturisers","Skin Cleansers","Lip Balms","Body Cream","Body Wash","Hand Wash","Soap","Shampoo","Conditioner"
+	],
+	"categories": [
+		"Beauty & Personal Care",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/MGASAJ9sb1TUxDWGgibhFZgog2aD1CcdyG7Ib4jM",
+	"url": "http://www.beautykitchen.co.uk/",
+	"BCORP_url": "https://bcorporation.net/directory/beauty-kitchen-uk-ltd",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 89.3,
+	"Governance": 13.1,
+	"Workers": 25.2,
+	"Community": 39.7,
+	"Environment": 11.3
+},
+{
+	"name": "Apivita",
+	"description": "Since 1979, APIVITA creates cosmetics from naturally derived active ingredients(plants of Greek nature, beehive products and organic essential oils). Through its own R&D Dept. innovations and new extraction methods are discovered.",
+	"products": [
+		"Eye Serum","Eye Gel","Eye Cream","Lip Cream","Foam Face Clenser","Cleansing Milk","Eye Make-up Remover","Face Moisturizer","Face Scrub","Face Mask","Lip Care","Skin Lotion","Anti-Spot Face Cream","Sunscreen","Shampoo","Hair Colourant","Hair Loss Treatment","Hair Mask","Hair Oil","Conditioner","Body Moisturizer","Body Oil","Body Scrub","Hand Care","Intimate Care","Shaving Cream","After Shave Balm","Hair Care","Baby Body Wash","Kids Shampoo","Baby Skin Cream","Baby Caring Oil","Sore Throat Pastilles","Candles","Herbal Creams","Essential Oils","Toothpaste","Mouthwash","Throat Syrup"
+	],
+	"categories": [
+      "Health & Household",
+      "Beauty & Personal Care",
+      "Baby & Kids"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/3kyJwBYCYjOt9bOuHKh0UkbrwSbYn1zHADweEaLX",
+	"url": "http://www.apivita.com/",
+	"BCORP_url": "https://bcorporation.net/directory/apivita-sa",
+	"location": [
+		"Greece"
+	],
+	"Overall": 84.5,
+	"Governance": 7.4,
+	"Workers": 18.6,
+	"Community": 16.2,
+	"Environment": 38.8,
+	"Customers": 3.5
+},
+{
+	"name": "DAME.",
+	"description": "DAME. is the creator of D, the world's first reusable tampon applicator, and DAME organic tampons. They're eliminating plastic, waste, and chemicals from period products.",
+	"products": [
+		"reusable tampon applicator",
+		"organic tampons"
+	],
+	"categories": [
+		"Beauty & Personal Care",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/9bbp4NqV4hV9pRLD7KWIwiFV54DYFIShLwd6H5GW",
+	"url": "http://www.wearedame.co/",
+	"BCORP_url": "https://bcorporation.net/directory/dame",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 88.6,
+	"Governance": 14.3,
+	"Workers": 16.4,
+	"Community": 21.1,
+	"Environment": 26,
+	"Customers": 10.6
+},
+{
+	"name": "Skandinavisk",
+	"description": "Their product collections and actions as a company are intended to always match up to the best practice standards so admired of Scandinavia; prioritizing natural body care, certified raw materials, responsible packaging, and local production, while their Refugee Integration Program has welcomed one refugee per year since the crisis in 2016.",
+	"products": [
+		"Fragrances","Hand Cream","Hand Wash","Hand Lotion","Bar Soap","Body Wash","Body Cream","Body Scrub","Perfume Oils","Scented Candles","Vase Scent Diffusers"
+	],
+	"categories": [
+		"Beauty & Personal Care",
+		"Home & Kitchen"
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/qHhpc3iIrFuSgRakTg3YR6uljQCe5qBH",
+	"url": "http://skandinavisk.com/",
+	"BCORP_url": "https://bcorporation.net/directory/skandinavisk-sr-ap-s",
+	"location": [
+		"Denmark"
+	],
+	"Overall": 84.1,
+	"Governance": 14.9,
+	"Workers": 31.9,
+	"Community": 16.5,
+	"Environment": 19,
+	"Customers": 1.7
+},
+{
+	"name": "The Body Shop",
+	"description": "The company pioneered the fair trade movement in the beauty industry and continues to work in partnership with suppliers across the world sourcing high quality natural ingredients, accessories and packaging through its Community Trade programme.",
+	"products": [
+		"Face Powder","Face Contouring Palette","Brush","Face Mist","Face Wash","Face Scrub","Face Protector","Fask Mask","Body Lotion","Lip Balm","Toner","Eye Concentrate","Shaving Kit","Moisture Serum","Eye Cream","Facial Oil","Moisture Cream","Facial Wipes","Soaps","Shower Gels & Creams","Massage Oils","Hand Creams","Deodorants","Body Cream","Body Butter","Hair Serum","Hair Butter","Hair Ties","Hair Shine","Shampoo","Hairbrush","Foundations","Conclears","Blush","Eye Liner","Eye Shadow","Lipstick","Mascara","Nail Shiner","Room Spray","Perfume Oil","Eau de Toilette"
+	],
+	"categories": [
+		"Beauty & Personal Care",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/iijvM7LaGOh9QWXnWGxym6uHu59Rwk24",
+	"url": "http://www.thebodyshop.com/",
+	"BCORP_url": "https://bcorporation.net/directory/the-body-shop-international",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 82.6,
+	"Governance": 15.7,
+	"Workers": 22.2,
+	"Community": 27.5,
+	"Environment": 17
+},
+{
+	"name": "C.F. Martin & Co.",
+	"description": "Under the leadership of C.F. Martin IV, the company has led the charge to develop alternative materials and sustainable woods for their products and has spent millions of dollars to reduce their carbon footprint. In 1996, the Martin Guitar Charitable Foundation was created to help support non-profit organizations that focus on environmental protection, music education, its local communities and disaster relief.",
+	"products": [
+		"Ukuleles",
+		"Acoustic Guitars",
+		"Electric Guitars",
+		"Strings for fretted instruments"
+	],
+	"categories": [
+		"Musical Instruments"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/TqtXQ0Gip7peclmRpesq29gbGSWXvMVS8KiRupkC",
+	"url": "http://www.martinguitar.com/",
+	"BCORP_url": "https://bcorporation.net/directory/cf-martin-co-inc",
+	"location": [
+		"United States"
+	],
+	"Overall": 81.9,
+	"Governance": 9.4,
+	"Workers": 22.1,
+	"Community": 17.9,
+	"Environment": 18.8,
+	"Customers": 13.5
+},
+{
+	"name": "Fairphone",
+	"description": "Fairphone is a movement for fairer electronics. By creating a phone, the social enterprise is opening up the supply chain, building new relationships between people and their products and starting conversations about what is truly fair. Fairphone is making a positive impact in four key areas (long-lasting design, fair materials, good working conditions, and reuse and recycling) while expanding the market for products that put ethical values first. ",
+	"products": [
+		"Smartphones"
+	],
+	"categories": [
+		"Electronics",
+		"Cards"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/7nba14baY8l3rUG2fCn3k0mMSOwvuAnJWWTHNTcJ",
+	"url": "http://www.fairphone.com/",
+	"BCORP_url": "https://bcorporation.net/directory/fairphone",
+	"location": [
+		"Netherlands"
+	],
+	"Overall": 106.6,
+	"Governance": 13.9,
+	"Workers": 20.6,
+	"Community": 33.5,
+	"Environment": 16.4,
+	"Customers": 22.2
+},
+{
+	"name": "Rich Brilliant Willing",
+	"description": "Light is a powerful thing. When it comes to hospitality, a warm, welcoming light is what sets us at ease and makes us feel at home. In the workplace, light sets the tone of an employee’s day. The right light lifts the mood, inspires productivity, and motivates us. At home, light enlivens the little things—our morning routines, or the moments we spend with friends. Rich Brilliant Willing believes that nothing is more important in shaping our sense of well-being than quality of light.",
+	"products": [
+		"LED Lighting"
+	],
+	"categories": [
+		"Home & Kitchen",
+		"Tools & Home Improvement"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/JDWdaEFvMognFek09XYklpwmoUwBN0CM",
+	"url": "http://www.richbrilliantwilling.com/",
+	"BCORP_url": "https://bcorporation.net/directory/rbw-studio-llc",
+	"location": [
+		"United States"
+	],
+	"Overall": 81.5,
+	"Governance": 14.9,
+	"Workers": 17.8,
+	"Community": 18.9,
+	"Environment": 25.4,
+	"Customers": 4.2
+},
+{
+	"name": "Better World Books",
+	"description": "Better World Books is a global bookstore that harnesses the power of capitalism to bring literacy and opportunity to people around the world. They are committed to unifying customers seeking to align their purchasing with their social and environmental values.",
+	"products": [
+		"Books","CDs","DVDs","Periodicals"
+	],
+	"categories": [
+		"Books & Media"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/RKgNOYBfKejbnxyL4pRoc5wshVUXWPBJF6C1smos",
+	"url": "http://www.betterworldbooks.com/",
+	"BCORP_url": "https://bcorporation.net/directory/better-world-books",
+	"location": [
+		"United States"
+	],
+	"Overall": 114.7,
+	"Governance": 15.6,
+	"Workers": 17.9,
+	"Community": 39.5,
+	"Environment": 32.2,
+	"Customers": 9.2
+},
+{
+	"name": "World of Books",
+	"description": "description",
+	"products": [
+		"Books","CDs","DVDs","Periodicals","Blu-Ray"
+	],
+	"categories": [
+		"Books & Media"
+
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/eV1a526YsZTAIohGV5soUno1pQ38NfTk",
+	"url": "http://www.worldofbooks.com/",
+	"BCORP_url": "https://bcorporation.net/directory/world-of-books-group",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 84.8,
+	"Governance": 14.6,
+	"Workers": 17.8,
+	"Community": 16.3,
+	"Environment": 29.1,
+	"Customers": 6.9
+},
+{
+	"name": "Karst Stone Paper",
+	"description": "Karst Stone Paper was built to create a more sustainable and productive world through thoughtfully designed products that inspire people and workplaces to live more consciously on a daily basis. Their products include the world’s first stone paper sketchpad, notebooks, journals and planners, treeless pencils and other eco-friendly alternatives. Their mission is to inspire the world to do more and create more, responsibly.",
+	"products": [
+		"Notebooks","Pencils","Planners","Sketchpads","Pocket Journals","Notepads"
+	],
+	"categories": [
+		"Books & Media",
+		"Office Products"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/esptqpozIzWDwGLs0GziuUEcFz531Ojm",
+	"url": "http://karststonepaper.com/",
+	"BCORP_url": "https://bcorporation.net/directory/karst-stone-paper",
+	"location": [
+		"Australia"
+	],
+	"Overall": 83.6,
+	"Governance": 5.6,
+	"Workers": 18.8,
+	"Community": 21.2,
+	"Environment": 34.5,
+	"Customers": 3.2
+},
+{
+	"name": "Pela",
+	"description": "On a mission to remove 1Billion lbs of plastic from our oceans, Pela is re-inventing everyday products, without everyday waste. Using their revolutionary technology, they have made a global impact with a customer base that spans all over the world.",
+	"products": [
+		"Phone Cases",
+		"Sunglasses",
+		"Screen Protectors"
+	],
+	"categories": [
+		"Electronics",
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/9hRDWgXKSCUULxb3PXA0P6UL78Bk2wy4",
+	"url": "http://pela.earth/",
+	"BCORP_url": "https://bcorporation.net/directory/pela",
+	"location": [
+		"Canada"
+	],
+	"Overall": 80.3,
+	"Governance": 7.5,
+	"Workers": 23.4,
+	"Community": 14.9,
+	"Environment": 29.7,
+	"Customers": 4.6
+},
+{
+	"name": "Organic Basics",
+	"description": "Organic Basics is building a sustainable brand that people can trust, now and always. They do this by starting with what goes closest to our skin and what we wear the most. They create innovative sustainable products and build a community that celebrates and supports environmental activism and more responsible living. Through education on their online platforms, customers are learning how to be better consumers.",
+	"products": [
+		"Bras","Bottoms","Tees & Tops","Socks","Leggings","Beanies","Scarves","Gloves","Cashmere Accessories","Toothbrushes","Mugs","Washing Bags","Tote Bags","Bottles","Towels","Underwear","Climate Credits"
+	],
+	"categories": [
+		"Fashion",
+		"Home & Kitchen",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/FyQkJb2Zl2nER1vpDVzDKXp7sQPIX6F2",
+	"url": "http://www.organicbasics.com/",
+	"BCORP_url": "https://bcorporation.net/directory/organic-basics",
+	"location": [
+		"Denmark"
+	],
+	"Overall": 92.8,
+	"Governance": 10.6,
+	"Workers": 22.3,
+	"Community": 18.5,
+	"Environment": 37,
+	"Customers": 4.1
+},
+{
+	"name": "TOMS",
+	"description": "TOMS was born of a belief in a better tomorrow. Since 2006, the TOMS community has been providing shoes, sight, and safe water to millions of people around the world, one by one and One for One.®",
+	"products": [
+		"Shoes","Sneakers","Boots","Footwear","Alpargatas","Espadrilles","Sandals",
+		"Sunglasses",
+		"Slippers"
+	],
+	"categories": [
+		"Fashion",
+		"Baby & Kids"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/akwlsuak7Kdd5Se1hDVb86uWAqx3E95aS3dtrXNH",
+	"url": "https://www.toms.fr/?locale=en_FR",
+	"BCORP_url": "https://bcorporation.net/directory/toms",
+	"location": [
+		"United States",
+		"France"
+	],
+	"Overall": 96.3,
+	"Governance": 13.1,
+	"Workers": 22,
+	"Community": 49.3,
+	"Environment": 11.8
+},
+{
+	"name": "Riz Boardshorts",
+	"description": "Riz Boardshorts Ltd aims to offer a more soulful, sartorial, and sustainable approach to men’s swimwear. Elegantly tailored and ethically sourced, their shorts perform perfectly in both the sea and the city.",
+	"products": [
+		"Swim Shorts",
+		"Boardshorts",
+		"Shorts",
+		"Sun Hats",
+		"Water Bottles"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/KTsY1XLpZrQCIfHNEVsTTXAIsH3r3eUXQQgyw3mN",
+	"url": "http://www.rizboardshorts.com/",
+	"BCORP_url": "https://bcorporation.net/directory/riz-boardshorts-ltd",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 104.4,
+	"Governance": 12.2,
+	"Community": 70.4,
+	"Environment": 21.8
+},
+{
+	"name": "Outland Denim",
+	"description": "Outland Denim is a socially minded denim label that creates premium basics while giving training and employment opportunities to some of the world's most vulnerable people. They limit environmental impact through the use of responsible raw materials.",
+	"products": [
+		"Jeans",
+		"Trousers",
+		"Denim Jackets"
+
+	],
+	"categories": [
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/5R7XVCb2oJHsSX9CEYYx9DJtCYroUACeXWuBWJdN",
+	"url": "http://www.outlanddenim.com/",
+	"BCORP_url": "https://bcorporation.net/directory/outland-denim",
+	"location": [
+		"Australia"
+	],
+	"Overall": 111.5,
+	"Governance": 7.2,
+	"Workers": 17.9,
+	"Community": 51.8,
+	"Environment": 34.6
+},
+{
+	"name": "Encircled",
+	"description": "Encircled is on a mission to create versatile, high-quality and responsibly-made clothing, so that their women can be truly proud of their wardrobes.",
+	"products": [
+		"Scarves","Pants","Dresses","Leggings","Skirts","Sweatshirts","Tank Tops","Twist Tops","Shirts","V-Necks","Crop Pants","Shawls","Leg Warmers","Jacket Dresses","Sleeveless Tees"
+	],
+	"categories": [
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/GRFeFmH5oBXoFpFlv4ZMerWkRLm27CyzgqH1oPPz",
+	"url": "https://www.encircled.co/",
+	"BCORP_url": "https://bcorporation.net/directory/encircled",
+	"location": [
+		"Canada"
+	],
+	"Overall": 91,
+	"Governance": 9.9,
+	"Workers": 25.2,
+	"Community": 25.9,
+	"Environment": 30
+},
+{
+	"name": "Jelt",
+	"description": "Jelt provides environmentally conscious and socially responsible lifestyle products for everyone. Jelt belts are made from 100% recycled water bottles with a grippy inner gel and a flat buckle that can be worn for sports, travel and with everyday jeans.",
+	"products": [
+		"Belts",
+		"Hoodies",
+		"Pullovers",
+		"Beanies",
+		"Hats"
+	],
+	"categories": [
+		"Fashion"
+
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/odQBdQ8onxEXIR95TCXNkvtLkD1Cq02IJqGDo8jM",
+	"url": "http://www.jeltbelt.com/",
+	"BCORP_url": "https://bcorporation.net/directory/jelt",
+	"location": [
+		"United States"
+	],
+	"Overall": 83.3,
+	"Governance": 9.4,
+	"Workers": 10.2,
+	"Community": 48.8,
+	"Environment": 14.9
+},
+{
+	"name": "Kotn",
+	"description": "Kotn is a direct to consumer basics company. They create timeless essentials made out of Egyptian cotton at an affordable price. Kotn use the finest cotton in the world, and their mission is to save Egyptian cotton, and people it supports, from extinction.",
+	"products": [
+		"T-shirts","Tops","Dresses","Trousers","Skirts","Sweatpants","Lounge Pants","Turtlenecks","Flannels","Longsleeve Shirts","V-Neck Tanks","Shirts","Cardigans","Robes","Socks","Pants","Hoodies","Polos","Sweatshirts"
+	],
+	"categories": [
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/dDU9tyabx3RBkm9rPii4MlQVcPLmTmBeR1vufoMw",
+	"url": "http://www.kotn.com/",
+	"BCORP_url": "https://bcorporation.net/directory/kotn",
+	"location": [
+		"Canada"
+	],
+	"Overall": 95.5,
+	"Governance": 8.7,
+	"Workers": 17.5,
+	"Community": 61.2,
+	"Environment": 8.1
+},
+{
+	"name": "LeDaveed",
+	"description": "LeDaveed works tirelessly to create stunning, long-lasting leather goods which simplify your life and inspire you. They are uncompromising on three principles: offering timeless quality, adding freedom to your days, and using business as a force for good.",
+	"products": [
+		"Travel Duffles","Backpacks","Briefcases","Totes","Travel Pouches","Leather Care Cream"
+	],
+	"categories": [
+		"Fashion",
+		"Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/XrYddjRUZU7s6ozi5T2IQrOAs9z20u44LIK6mzB0",
+	"url": "http://www.ledaveed.com/",
+	"BCORP_url": "https://bcorporation.net/directory/ledaveed",
+	"location": [
+		"Canada"
+	],
+	"Overall": 86,
+	"Governance": 13.5,
+	"Workers": 21.5,
+	"Community": 22.4,
+	"Environment": 28.6
+},
+{
+	"name": "Kozm",
+	"description": "Premium yoga goods for men. Ancient practice, unconventional approach. Open book business w/o retail mark up. Made Fair With Care.",
+	"products": [
+		"Yoga Shorts",
+		"Tees",
+		"Sweatshirts",
+		"Totes",
+		"Hats",
+		"Beanies"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/qjWAlN5ybSgwX4XOTJWcirDPttO8QwOrrxjqvpWe",
+	"url": "http://thekozm.com/",
+	"BCORP_url": "https://bcorporation.net/directory/kozm-inc",
+	"location": [
+		"United States"
+	],
+	"Overall": 89.9,
+	"Governance": 12.5,
+	"Community": 49.1,
+	"Environment": 28.3
+},
+{
+	"name": "Accompany",
+	"description": "First and foremost, Accompany's mission is to help human beings—to change the lives of individuals, families and communities, for good. Because to them, change doesn’t mean a quick fix or temporary solution. They are a socially and environmentally conscious and curated fashion marketplace.",
+	"products": [
+		"Blankets","Pillows","Cups","Kitchen Towels","Carafe","Appetizer Trays","Coasters","Napkins","Placemats","Mugs","Boards","Serving Bowls","Glasses","Salt & Pepper Set","Measuring Spoon Set","Salad Claws","Chopsticks","Vases","Towels","Soaps","Socks","Shoes","Hats","Scarves","Sandals","Visors","Mules","Earrings","Chokers","Bracelets","Rings","Totes","Capes","Shirts","Pants","Pullovers","Cardigans","Blouse","Skirts","Dresses","Jumpsuits"
+	],
+	"categories": [
+		"Fashion",
+		"Home & Kitchen",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/x1rlnMp8pvRTl6smlDxCpmvHxRZujCSrSLpFaFeF",
+	"url": "http://accompanyus.com/",
+	"BCORP_url": "https://bcorporation.net/directory/accompany",
+	"location": [
+		"United States"
+	],
+	"Overall": 87,
+	"Governance": 7,
+	"Community": 61.2,
+	"Environment": 9.2,
+	"Customers": 10.4
+},
+{
+	"name": "Better World Fashion",
+	"description": "Better World Fashion is a sustainability pioneer in the fashion industry. The company believes that sustainable fashion is much more than organic cotton. The company has created the first collection of new leather jackets made of 98% recycled materials. Everything leather, linen, and metals is reused. Better World uses a sustainable business model, where jackets are either sold with a buyback guarantee or rented to the consumer. This ensures that the resources are recycled and does not leave the closed leather cycle.",
+	"products": [
+		"Leather Jackets"
+	],
+	"categories": [
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/RNN4pQU8wSuCTE52bwBghm0LVmZrA60HXqEFMTab",
+	"url": "http://www.betterworldfashion.com/",
+	"BCORP_url": "https://bcorporation.net/directory/better-world-fashion",
+	"location": [
+		"Denmark"
+	],
+	"Overall": 100.7,
+	"Governance": 10,
+	"Workers": 22.7,
+	"Community": 30.1,
+	"Environment": 37.9
+},
+{
+	"name": "WE-AR",
+	"description": "WE-AR is a fearless fashion + yoga brand who has grown from the seed concept that we are one, and as such every action has an impact on others and the planet. From organic, eco-luxe textiles, through robust social + environmental codes, to active community giving and engagement, this ethos is the heartbeat of every choice made.",
+	"products": [
+		"Leggings","Pants","Tees","Tank Tops","Bralettes","Bras","Hoodies","Bikinis","One Piece Swimsuits","Underwear","Panties","Yoga Mats","Shirts","Shorts","Jumpsuits","Rompers","Skirts","Sweaters","Jackets","Scarves","Backpacks","Belts","Shorts"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors",
+		"Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/yku9XvkFRHDdccBRFbgkW2qTIJzvUmX1jnuxffqa",
+	"url": "http://www.we-ar.com/",
+	"BCORP_url": "https://bcorporation.net/directory/we-ar",
+	"location": [
+		"New Zealand"
+	],
+	"Overall": 94.3,
+	"Governance": 7.3,
+	"Workers": 23.7,
+	"Community": 35.9,
+	"Environment": 24.3,
+	"Customers": 3.1
+},
+{
+	"name": "Between the Sheets",
+	"description": "Founded in 2010 - Between the Sheets is made ethically in NYC and offers our collections of intimate apparel and loungewear along with a curated selection of legwear and accessories directly to customers around the world at www.btslingerie.com",
+	"products": [
+		"Robes","Tees","Sweatshirts","Pants","Babydolls","Chemises","Cowl Tanks","Shorts","Tap Pants","Bralettes","Nightgowns","Camis","Underwear","Garters","Pyjamas","Lingerie","Yoga Pants","Over the Knee Socks",
+		"Product 2"
+	],
+	"categories": [
+		"Fashion",
+		"Beauty & Personal Care"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/IARboq44g2JTJMYgR1eSi9zJ188K8MOvYAieaOjs",
+	"url": "http://www.btslingerie.com/",
+	"BCORP_url": "https://bcorporation.net/directory/between-the-sheets-inc",
+	"location": [
+		"United States"
+	],
+	"Overall": 86.6,
+	"Governance": 12.4,
+	"Community": 51.8,
+	"Environment": 22.4
+},
+{
+	"name": "JoJo Maman Bebe",
+	"description": "With a French nautical influence, the designs which originate from their London studio, combine Breton styling with quirky British humor to build collections which are unique and exciting. JoJo is best known for its fashionable and affordable maternity wear, adorable new baby gifts, stunning children's clothes and practical nursery products. Parents & grandparents come to JoJo for the quality product and great customer service provided by its long-serving, loyal team. Being a Certified B Corp is just the icing on the cake.",
+	"products": [
+		"Maternity Fashion","Maternity Lingerie","Nursing Clothes","Pregnancy Essentials","Books","Wooden Toys","Baby Toys","Bath Toys","Games & Puzzles","Play Figures & Sets","Play Mats","Scooters","Bikes","Outdoor Toys","Plush Toys","Dolls","Baby Bodysuits","Baby Tops & T-shirts","Baby Cardigans","Baby Leggings","Baby Trousers","Baby Dresses","Baby Swimwear","Baby Slippers","Baby Shoes","Baby Swim Nappies","Baby Sun Hats","Baby Sunglasses","Kids Tops","Kids Hoodies","Kids Trousers","Kids Leggings","Kids Coats & Jackets","Kids Snowsuits","Kids Shoes & Boots","Kids Pyjamas","Hats","Scarves","Gloves","Sleeping Bags","Underwear","Bags","Wooden Letters","Plaques","Wall Stickers","Storage","Nursery Furniture","Blankets","Shawls","Night Lights","Nappies","Sunscreen","Insect Repellent","Toothpaste","Moisturisers","Creams","Kids Backpacks","Travel Cots"
+	],
+	"categories": [
+		"Baby & Kids",
+		"Fashion",
+		"Health & Household",
+		"Toys & Games",
+		"Sports & Outdoors",
+		"Home & Kitchen"
+
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/td9vexwcy314X9HJPZHWUjI2jb2dQkWOgaYKkDoY",
+	"url": "http://www.jojomamanbebe.co.uk/",
+	"BCORP_url": "https://bcorporation.net/directory/jojo-maman-bebe",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 85.1,
+	"Governance": 9.5,
+	"Workers": 24.6,
+	"Community": 30,
+	"Environment": 21
+},
+{
+	"name": "tentree",
+	"description": "tentree was founded on the premise that every consumer wants to know that they are contributing to the wellbeing of the planet. They believe that they can inspire a new group of consumers to tackle the environmental issues we are now faced with head on, positively impacting the future. They work with a variety of not-for-profits, educational groups, and organizations across the globe to ensure that their planting efforts are having a real, marked impact in the local communities. To date, they have already planted over 25 million trees and have a goal to plant 1 billion trees by 2030.",
+	"products": [
+		"T-Shirts","Tanks","Shirts","Button-Ups","Dresses","Rompers","Sweaters","Cardigans","Hoodies","Sweatshirts","Jackets","Bombers","Pants","Shorts","Socks","Wallets","Bags","Towels","Mugs","Water Bottles","Thermos","Cutlery","Dog Collars","Dog Leashes","Hats","Scarves","Beanies","Mittens","Blankets","Travel Kits","Totes","Backpacks","Pouches"
+	],
+	"categories": [
+		"Fashion",
+		"Home & Kitchen",
+		"Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/zb892YmlKcyysxwtX3Y7HljT4RFiq9N55eCsp5j7",
+	"url": "http://www.tentree.com/",
+	"BCORP_url": "https://bcorporation.net/directory/tentree-international",
+	"location": [
+		"Australia"
+	],
+	"Overall": 124.6,
+	"Governance": 14.9,
+	"Workers": 25.1,
+	"Community": 54.1,
+	"Environment": 30.3
+},
+{
+	"name": "Elvis & Kresse",
+	"description": "Today, Elvis & Kresse's highly skilled craftspeople make beautifully designed bags and homeware. 50% of Elvis & Kresse's profits are donated to charities related to their raw materials, 50% of their profits from the fire hose range go to The Fire Fighters Charity. London's fire hose was just the beginning, the team reclaims more than 12 different materials and has saved over 300 tonnes of material from landfill.",
+	"products": [
+		"Bags","Wallets","Belts","Notebooks","Luggage Tags","Travel Case","Washbags","Cosmetics Cases","Duffel Bags","Folio & Laptop Cases","iPad Cases","iPhone Cases","Android Phone Cases","Cufflinks","Desk Caddy","Key Ring","Purses Card Holders","Leather Rugs","Leather Cubes"
+	],
+	"categories": [
+		"Fashion",
+		"Luggage",
+		"Home & Kitchen",
+		"Personal Care",
+		"Office Products",
+		"Tools & Home Improvement",
+		"Electronics"
+
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/8YnkFzN6csfEBYzkFXdnJqTzj72n6hnXm3OVjJmS",
+	"url": "http://elvisandkresse.com/",
+	"BCORP_url": "https://bcorporation.net/directory/elvis-kresse",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 90.3,
+	"Governance": 11.2,
+	"Workers": 22.2,
+	"Community": 23.2,
+	"Environment": 33.6
+},
+{
+	"name": "Wallaroo Hat Company",
+	"description": "Many of the hats in the Wallaroo Collection are rated UPF 50+ ensuring that the customer gets a 97.5% UV block from the sun's harmful rays. With the incidence of skin cancer on the rise nationally, sun protection is more important now than ever before. Wallaroo is actively involved with the Skin Cancer Foundation and many Wallaroo hats are recommended as an effective UV protectant. To help further their corporate philosophy, several years ago Wallaroo started a Sun Protection Commitment campaign. Every year Wallaroo donates 1% of its profits to different organizations that undertake skin cancer research, prevention and education in the United States.",
+	"products": [
+		"Bucket Hats","Cowboy Hats","Fedoras","Visors","Caps","Wide Brim Hats","Kids' Hats"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/UqFTvYh87tTW3goDuC7sH8jAeA6jKKBH0sJEQKhA",
+	"url": "http://www.wallaroohats.com/",
+	"BCORP_url": "https://bcorporation.net/directory/wallaroo-hat-company",
+	"location": [
+		"United States"
+	],
+	"Overall": 80.5,
+	"Governance": 11.4,
+	"Workers": 24.7,
+	"Community": 21.1,
+	"Environment": 14.2,
+	"Customers": 9.1
+},
+{
+	"name": "Mud Jeans",
+	"description": "Mud Jeans initiated the fashion concept Lease A Jeans. The concept represents a new consuming philosophy that is about using instead of owning. Mud Jeans wants to accelerate the transition to a circular economy in the fashion industry.",
+	"products": [
+		"Jeans","Shorts","Skirts","Jackets","Shirts","Bags","Sweaters"
+	],
+	"categories": [
+		"Fashion"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/9jHfYdTDSInFzClrvUOaoo9auKlpw3f5QVvTPYmK",
+	"url": "https://mudjeans.eu",
+	"BCORP_url": "https://bcorporation.net/directory/mud-jeans-international",
+	"location": [
+		"Netherlands"
+	],
+	"Overall": 87.7,
+	"Governance": 7.4,
+	"Workers": 15.9,
+	"Community": 18.5,
+	"Environment": 45.9
+},
+{
+	"name": "Looptworks",
+	"description": "Looptworks uses creative and resourceful thinking to transform excess materials into unique and meaningful products that change the way people think about consumption. They are paving the way for the circular economy and zero-waste solutions in retail.",
+	"products": [
+		"Backpacks","Totes","Handbags","Crewnecks","V-Neck Tees","Jackets","Laptop Sleeves","Tablet Cases","Duffel Bags","Wallets","Toiletry Kits"
+
+	],
+	"categories": [
+		"Fashion",
+		"Luggage",
+		"Beauty & Personal Care",
+		"Electronics"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/S2L9u05td3a4F33qcYq6u80NgtNs5rIaGYF5sIgr",
+	"url": "http://www.looptworks.com/",
+	"BCORP_url": "https://bcorporation.net/directory/looptworks",
+	"location": [
+		"United States"
+	],
+	"Overall": 111.5,
+	"Governance": 12.8,
+	"Workers": 15.3,
+	"Community": 50.6,
+	"Environment": 32.6
+},
+{
+	"name": "Bixbee",
+	"description": "Bixbee is a bag and accessories company built upon a One Here. One There. mission. For every schoolbag sold, one schoolbag with supplies will be given to a kid in need.",
+	"products": [
+		"Kids' Luggage","Kids' Suitcases","Kids' Bedding","Kids' Sleeping Bags","Kids' Backpacks","Kids' Lunchboxes","Kids' Duffle Bags","Kids' Bottles","Kids' Pencil Cases"
+	],
+	"categories": [
+		"Baby & Kids",
+		"Luggage",
+		"Home & Kitchen",
+		"Sports & Outdoors",
+		"Health & Household"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/31FRX1TfHwNAHTTHmC0xFkWQGrRCxtTldnskz9uv",
+	"url": "http://bixbee.com/",
+	"BCORP_url": "https://bcorporation.net/directory/bixbee",
+	"location": [
+		"United States"
+	],
+	"Overall": 81.5,
+	"Governance": 12,
+	"Workers": 14.6,
+	"Community": 45.2,
+	"Environment": 9.7
+},
+{
+	"name": "United By Blue",
+	"description": "United By Blue was founded in 2010, driven by the idea of associating the sale of each product with a concrete environmental action. For every product sold, United By Blue removes one pound of trash from oceans and waterways through company organized and hosted cleanups.",
+	"products": [
+		"Pants","Turtlenecks","Flannels","Sweatshirt Dresses","Shirt Jackets","Sweaters","Pullovers","Sweatpants","Long Sleeve Tees","Rain Shells","Dresses","Button Downs","Puffer Vests","Hoodies","T-Shirts","Backpacks","Toiletry Cases","Duffles","Socks","Reusable Staw Kits","Beanies","Caps","Bandanas","Journals","Beard Balms","Gloves","Cologne","Beard Wash","Shave Gel","Sunglasses","Mugs","Water Bottles","Dog Collars","Candles",
+		"Product 2"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors",
+		"Beauty & Personal Care",
+		"Health & Household",
+		"Luggage",
+		"Home & Kitchen"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/ScVshcRMRWmokUGzZ6TTExAbtsbIzYPgfFab4o6f",
+	"url": "http://www.unitedbyblue.com/",
+	"BCORP_url": "https://bcorporation.net/directory/united-blue",
+	"location": [
+		"United States"
+	],
+	"Overall": 80.1,
+	"Governance": 14.3,
+	"Workers": 13.1,
+	"Community": 28.3,
+	"Environment": 24.4
+},
+{
+	"name": "Eco-Bags",
+	"description": "Behind their little green ECOBAGS tag is a woman-owned business with a history of creating durable, sustainably sourced & responsibly made bags using natural, recycled, organic and recyclable materials for retail, resale, promotions, packaging and design. At Eco-Bags Products, they're innovators - they were one of the first to introduce reusable bags to the market in 1992. They were the first to bring the classic, European cotton string market bags to the US.",
+	"products": [
+		"Tote Bags",
+		"Lunch Bags",
+		"String Bags",
+		"Produce Bags / Market Bags"
+	],
+	"categories": [
+		"Best",
+		"Cards"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/qpsC7Ougj3talrKXBZqnW0zHMoOAeaJnei1VgULI",
+	"url": "http://ecobags.com/",
+	"BCORP_url": "https://bcorporation.net/directory/eco-bags-products",
+	"location": [
+		"United States"
+	],
+	"Overall": 110.7,
+	"Governance": 10.5,
+	"Workers": 18.5,
+	"Community": 36.6,
+	"Environment": 45.1
+},
+{
+	"name": "Finisterre",
+	"description": "Born from the needs of British cold water surfers, Finisterre builds the best and most sustainable product for those that share our love of the sea.",
+	"products": [
+		"Jacket",
+		"Sweat",
+		"Jean",
+		"Beanie",
+		"Shirt",
+		"Base Layer",
+		"Jumper",
+		"Tee",
+		"Short Sleeve",
+		"Boxers",
+		"Socks",
+		"Cap",
+		"Wrist Warmers",
+		"Flask",
+		"Water Bottle",
+		"Backpacks",
+		"Rucksack",
+		"Insulated Blanket",
+		"Waterproof Jacket",
+		"Trainer",
+		"Surf Shoe",
+		"Trousers",
+		"Sunglasses",
+		"Carabiner",
+		"Hammock",
+		"Towel",
+		"Dry Bag",
+		"Sex Wax",
+		"Bowline Belt",
+		"Hoodie",
+		"Wetsuit",
+		"Mug",
+		"Neck Warmer",
+		"Travel Pouches",
+		"Wool Fleece",
+		"Cardigan",
+		"Top",
+		"Leggings",
+		"Joggers",
+		"Hardy Dress",
+		"Bikini",
+		"Skirt",
+		"Dungarees"
+	],
+	"categories": [
+		"Fashion",
+		"Sports & Outdoors",
+		"Luggage"
+	],
+	"image": "https://s3.amazonaws.com/blab-impact-published-production/public/rJFTWc7Oi8ThMYlGqf7G0tVEWiHNVytVEg8gLZWH",
+	"url": "https://finisterre.com/",
+	"BCORP_url": "https://bcorporation.net/directory/finisterre",
+	"location": [
+		"United Kingdom"
+	],
+	"Overall": 80.8,
+	"Governance": 12.8,
+	"Workers": 19.2,
+	"Community": 20.5,
+	"Environment": 28.3
+}
+]
